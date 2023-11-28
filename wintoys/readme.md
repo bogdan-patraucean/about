@@ -17,3 +17,7 @@ Experience Windows in your way and keep it fresh every day. Set up, debloat, opt
 - Uninstall any app, even those apps that don't have an uninstall option in Windows.
 
 - Find out which services you don't need and safely disable them with only two clicks.
+
+___
+
+🔒 [privacy policy](privacy.md)
