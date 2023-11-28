@@ -1,9 +1,8 @@
 # Wintoys privacy policy
 
-> [!NOTE]
-> Last update: `28.11.2023`
+> ℹ️ Last update: `28.11.2023`
 > 
-The privacy policy describes how, what and why some data might be required to be collected. By using Wintoys, you acknowledge and consent to the practices described below.
+> The privacy policy describes how, what and why some data might be required to be collected. By using Wintoys, you acknowledge and consent to the practices described below.
 
 ## User data
 
