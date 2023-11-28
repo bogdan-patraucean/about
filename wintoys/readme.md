@@ -17,4 +17,4 @@ Experience Windows in your way and keep it fresh every day. Set up, debloat, opt
 
 
 
-<img src="assets/home.png" alt="home page screenshot" style="border-radius:10%">
+<img src="assets/home.png" alt="home page screenshot" style="border-radius:2%">
