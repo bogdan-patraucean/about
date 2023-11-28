@@ -2,6 +2,13 @@
 
 ![home screenshot](assets/home.png)
 
+<p align="center">
+  <a style="text-decoration:none" href="https://apps.microsoft.com/detail/9P8LTPGCBZXD" target="_blank">
+    <img src="https://img.shields.io/badge/Microsoft%20Store-Download-brightgreen" alt="Store link" />
+  </a>
+</p>
+
+
 Experience Windows in your way and keep it fresh every day. Set up, debloat, optimize, repair, and tweak your operating system in a simple, time-saving, yet safe approach. Maintain it in a clean, healthy and productive state while having everything you need in one place.
 
 - Speed up your Windows and increase the framerate in certain games just by tweaking some settings.
