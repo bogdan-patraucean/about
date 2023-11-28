@@ -1,4 +1,7 @@
 # Wintoys
+
+![home screenshot](assets/home.png)
+
 Experience Windows in your way and keep it fresh every day. Set up, debloat, optimize, repair, and tweak your operating system in a simple, time-saving, yet safe approach. Maintain it in a clean, healthy and productive state while having everything you need in one place.
 
 - Speed up your Windows and increase the framerate in certain games just by tweaking some settings.
@@ -14,7 +17,3 @@ Experience Windows in your way and keep it fresh every day. Set up, debloat, opt
 - Uninstall any app, even those apps that don't have an uninstall option in Windows.
 
 - Find out which services you don't need and safely disable them with only two clicks.
-
-___
-
-<img src="assets/home.png" alt="home page screenshot" style="border-radius:1%">
