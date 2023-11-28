@@ -15,6 +15,6 @@ Experience Windows in your way and keep it fresh every day. Set up, debloat, opt
 
 - Find out which services you don't need and safely disable them with only two clicks.
 
-
+___
 
 <img src="assets/home.png" alt="home page screenshot" style="border-radius:2%">
