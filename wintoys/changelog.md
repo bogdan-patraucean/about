@@ -10,6 +10,7 @@
   - fixed registry GetNumber method when passing an invalid number as string
   - updated some translations
   - added copyright range instead of one year
+
 </details>
 
 <details>
@@ -23,17 +24,14 @@
      - Turkish
      - Spanish
      - German
-
  - added new information when hovering over your Windows version on the _Home_ page
      - license status
      - license channel
      - product key
      - UBR (update build revision)
-    
  - improved app startup times by optimizing CPU and GPU usage algorithms
      - the CPU usage now sits under 1% with optimized code on the Home page (previously there were spikes at every 2 seconds with values between 1-3% on a 13th gen i7)
      - querying the GPU usage is now 1.6 times faster
-   
  - HAGS option will now be hidden if not supported by the GPU
  - added setting to place a shortcut of the app on your Desktop
  - added Widgets option under _Tweaks > Desktop_ (only Windows 11)
@@ -60,7 +58,6 @@
  - removed WMI dependency for Restart graphics driver option
  - replaced performance counters for network traffic speed
  - replaced performance counters with PerfLib to query the GPU usage
-
  - issues and bugs:
       - fixed an issue where turning off _Lockscreen fun facts, tips and tricks_ would disable the wallpapers slideshow
       - fixed an issue where remaining orphan apps registry keys would not be removed when trying to uninstall them
@@ -73,6 +70,7 @@
       - fixed an issue where the GPU usage was displayed correctly only for 3D engine tasks
       - fixed an issue showing the wrong GPU on multimonitor setups
       - fixed an issue where the GPU name is not displayed on a VM
+   
 </details>
 
 <details>
@@ -81,6 +79,7 @@
   </summary>
   
   - fixed Health page crashing on some systems with "exotic" date time formats
+
 </details>
 
 <details>
@@ -92,6 +91,7 @@
   - improved spacing across the app
   - clicking Properties on a startup app will now open the Properties dialog much faster
   - fixed benchmark not loading all scores
+
 </details>
 
 <details>
@@ -108,6 +108,7 @@
   - replaced powercfg with win32 apis to avoid issues for different languages
   - logging to EventViewer when the service is not available will no longer crash or display an error
   - other stability improvements
+
 </details>
 
 <details>
@@ -123,6 +124,7 @@
   - added Microsoft.VCLibs.140.00.UWPDesktop as a dependency because it might fix some startup crashes
   - added warning for when a startup app that's an antivirus can't be disabled
   - other stability improvements
+
 </details>
 
 <details>
@@ -140,6 +142,7 @@
   - fixed Search context menu option (apps, services) for some default browsers not working
   - fixed not launching the app as admin if the user was not an administrator (this was causing a lot of access denied errors)
   - other stability improvements
+
 </details>
 
 <details>
@@ -161,4 +164,5 @@
   - trying to safely uninstall Edge no longer works so the option is now disabled
   - fixed VBS not disabling
   - other stability improvements
+
 </details>
