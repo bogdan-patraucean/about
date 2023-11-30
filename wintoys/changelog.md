@@ -1,9 +1,8 @@
 # Wintoys changelog
 <details>
-  <summary><b>Preview title</b></summary>
+<summary><b>Preview title</b></summary>
 
 _Markdown is valid, but add empty lines to separate from the HTML tags._
-
 - Bullet
 - Points
 
