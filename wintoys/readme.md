@@ -27,4 +27,7 @@ Experience Windows in your way and keep it fresh every day. Set up, debloat, opt
 
 ___
 
+💡 [changelog](changelog.md)
+
 🔒 [privacy policy](privacy.md)
+
