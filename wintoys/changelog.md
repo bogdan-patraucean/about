@@ -2,11 +2,11 @@
 <details>
 <summary><b>Preview title</b></summary>
 <div>
-  
+
   _Markdown is valid, but add empty lines to separate from the HTML tags._
 - Bullet
 - Points
-  
+
 </div>
 </details>
 
