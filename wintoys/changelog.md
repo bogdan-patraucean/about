@@ -26,7 +26,7 @@ ___
  - improved app startup times by optimizing CPU and GPU usage algorithms
      - the CPU usage now sits under 1% with optimized code on the Home page (previously there were spikes at every 2 seconds with values between 1-3% on a 13th gen i7)
      - querying the GPU usage is now 1.6 times faster
- - HAGS option will now be hidden if not supported by the GPU
+ - HAGS option will now be disabled if not supported by the GPU
  - added setting to place a shortcut of the app on your Desktop
  - added Widgets option under _Tweaks > Desktop_ (only Windows 11)
  - added Account notifications option under _Tweaks > Start menu_
