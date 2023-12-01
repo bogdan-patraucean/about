@@ -7,7 +7,9 @@
   - updated privacy policy and copyright range
   - fixed registry GetNumber method when passing an invalid number as string
   - updated some translations
+
 ___
+
 ### 1.2.22.0 release
 
 - added the top requested feature: localization infrastructure and the following languages
@@ -62,18 +64,24 @@ ___
       - fixed an issue where the GPU usage was displayed correctly only for 3D engine tasks
       - fixed an issue showing the wrong GPU on multimonitor setups
       - fixed an issue where the GPU name is not displayed on a VM
+
 ___
+
 ### 1.1.65.0 release
 
 - fixed Health page crashing on some systems with "exotic" date time formats
+  
 ___
+
 ### 1.1.58.0 release
 
   - handled WMI unavailability (a reason for some of the startup crashes)
   - improved spacing across the app
   - clicking Properties on a startup app will now open the Properties dialog much faster
   - fixed benchmark not loading all scores
+    
 ___
+
 ### 1.1.55.0 release
 
 - Windows Repair
@@ -85,7 +93,9 @@ ___
   - replaced powercfg with win32 apis to avoid issues for different languages
   - logging to EventViewer when the service is not available will no longer crash or display an error
   - other stability improvements
+    
 ___
+
 ### 1.1.38.0 release
 
   - fixed app no longer being displayed when reopened after closing it while minimized
@@ -96,7 +106,9 @@ ___
   - added Microsoft.VCLibs.140.00.UWPDesktop as a dependency because it might fix some startup crashes
   - added warning for when a startup app that's an antivirus can't be disabled
   - other stability improvements
+    
 ___
+
 ### 1.1.32.0 release
 
   - added search by family name for store apps
@@ -109,7 +121,9 @@ ___
   - fixed Search context menu option (apps, services) for some default browsers not working
   - fixed not launching the app as admin if the user was not an administrator (this was causing a lot of access denied errors)
   - other stability improvements
+    
 ___
+
 ### 1.1.16.0 release
 
   - rephrased all descriptions to be more clear for both Boost and Health pages
