@@ -1,34 +1,16 @@
 # Wintoys changelog
-<details>
-<summary><b>Preview title</b></summary>
-<div>
 
-  _Markdown is valid, but add empty lines to separate from the HTML tags._
-- Bullet
-- Points
 
-</div>
-</details>
+### 1.2.25.0 release
 
-<details>
-  <summary>
-    <b>1.2.25.0</b> release
-  </summary>
-  
   - handled error for volume licenses
   - updated privacy policy and copyright range
   - fixed registry GetNumber method when passing an invalid number as string
   - updated some translations
-  - added copyright range instead of one year
+___
+### 1.2.22.0 release
 
-</details>
-
-<details>
-  <summary>
-    <b>1.2.22.0</b> release
-  </summary>
-  
-  - added the top requested feature: localization infrastructure and the following languages
+- added the top requested feature: localization infrastructure and the following languages
      - Romanian
      - French
      - Turkish
@@ -80,36 +62,21 @@
       - fixed an issue where the GPU usage was displayed correctly only for 3D engine tasks
       - fixed an issue showing the wrong GPU on multimonitor setups
       - fixed an issue where the GPU name is not displayed on a VM
-   
-</details>
+___
+### 1.1.65.0 release
 
-<details>
-  <summary>
-    <b>1.1.65.0</b> release
-  </summary>
-  
-  - fixed Health page crashing on some systems with "exotic" date time formats
+- fixed Health page crashing on some systems with "exotic" date time formats
+___
+### 1.1.58.0 release
 
-</details>
-
-<details>
-  <summary>
-    <b>1.1.58.0</b> release
-  </summary>
-  
   - handled WMI unavailability (a reason for some of the startup crashes)
   - improved spacing across the app
   - clicking Properties on a startup app will now open the Properties dialog much faster
   - fixed benchmark not loading all scores
+___
+### 1.1.55.0 release
 
-</details>
-
-<details>
-  <summary>
-    <b>1.1.55.0</b> release
-  </summary>
-  
-  - Windows Repair
+- Windows Repair
     - changed how results are displayed: a complete list of logs will be displayed instead of a summary, accessible via a button
     - added the percentage on top of the progress bar
     - fixed not enabling Scan and Repair buttons in some cases where internet was reported as disconnected
@@ -118,14 +85,9 @@
   - replaced powercfg with win32 apis to avoid issues for different languages
   - logging to EventViewer when the service is not available will no longer crash or display an error
   - other stability improvements
+___
+### 1.1.38.0 release
 
-</details>
-
-<details>
-  <summary>
-    <b>1.1.38.0</b> release
-  </summary>
-  
   - fixed app no longer being displayed when reopened after closing it while minimized
   - fixed tools like Windows Repair not working due to the OS encoding not being found
   - fixed not being able to toggle some startup apps found in the Startup folder
@@ -134,14 +96,9 @@
   - added Microsoft.VCLibs.140.00.UWPDesktop as a dependency because it might fix some startup crashes
   - added warning for when a startup app that's an antivirus can't be disabled
   - other stability improvements
+___
+### 1.1.32.0 release
 
-</details>
-
-<details>
-  <summary>
-    <b>1.1.32.0</b> release
-  </summary>
-  
   - added search by family name for store apps
   - removed Create Restore Point button as the feature was not working reliably
   - updated, replaced and removed some unused or legacy packages
@@ -152,14 +109,9 @@
   - fixed Search context menu option (apps, services) for some default browsers not working
   - fixed not launching the app as admin if the user was not an administrator (this was causing a lot of access denied errors)
   - other stability improvements
+___
+### 1.1.16.0 release
 
-</details>
-
-<details>
-  <summary>
-    <b>1.1.16.0</b> release
-  </summary>
-  
   - rephrased all descriptions to be more clear for both Boost and Health pages
   - added recommendations and details as tooltips over the toggles so you know all the benefits and downsides of those settings
   - added Classic context menu tweak for Windows 11 under Tweaks > Desktop
@@ -174,5 +126,3 @@
   - trying to safely uninstall Edge no longer works so the option is now disabled
   - fixed VBS not disabling
   - other stability improvements
-
-</details>
