@@ -84,7 +84,7 @@ ___
 
 ### 1.1.55.0 release
 
-- Windows Repair
+  - Windows Repair
     - changed how results are displayed: a complete list of logs will be displayed instead of a summary, accessible via a button
     - added the percentage on top of the progress bar
     - fixed not enabling Scan and Repair buttons in some cases where internet was reported as disconnected
