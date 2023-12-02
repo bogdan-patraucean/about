@@ -1,7 +1,17 @@
 # Wintoys changelog
 
+### v1.2.32.0
 
-### 1.2.25.0 release
+  - fixed dialogs border color when changing OS theme
+  - fixed multiple win32 app uninstall errors
+  - fixed null reference exception for license channel
+  - fixed error when registry key access is denied while loading apps
+  - updated to cswin32 0.3.49
+
+___
+
+
+### v1.2.25.0
 
   - handled error for volume licenses
   - updated privacy policy and copyright range
@@ -10,7 +20,7 @@
 
 ___
 
-### 1.2.22.0 release
+### v1.2.22.0
 
 - added the top requested feature: localization infrastructure and the following languages
      - Romanian
@@ -67,13 +77,13 @@ ___
 
 ___
 
-### 1.1.65.0 release
+### v1.1.65.0
 
 - fixed Health page crashing on some systems with "exotic" date time formats
   
 ___
 
-### 1.1.58.0 release
+### v1.1.58.0
 
   - handled WMI unavailability (a reason for some of the startup crashes)
   - improved spacing across the app
@@ -82,7 +92,7 @@ ___
     
 ___
 
-### 1.1.55.0 release
+### v1.1.55.0
 
   - Windows Repair
     - changed how results are displayed: a complete list of logs will be displayed instead of a summary, accessible via a button
@@ -96,7 +106,7 @@ ___
     
 ___
 
-### 1.1.38.0 release
+### v1.1.38.0
 
   - fixed app no longer being displayed when reopened after closing it while minimized
   - fixed tools like Windows Repair not working due to the OS encoding not being found
@@ -109,7 +119,7 @@ ___
     
 ___
 
-### 1.1.32.0 release
+### v1.1.32.0
 
   - added search by family name for store apps
   - removed Create Restore Point button as the feature was not working reliably
@@ -124,7 +134,7 @@ ___
     
 ___
 
-### 1.1.16.0 release
+### v1.1.16.0
 
   - rephrased all descriptions to be more clear for both Boost and Health pages
   - added recommendations and details as tooltips over the toggles so you know all the benefits and downsides of those settings
