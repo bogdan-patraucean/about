@@ -1,12 +1,13 @@
 # Wintoys changelog
 
-### v1.2.32.0
+### v1.2.34.0
 
   - fixed dialogs border color when changing OS theme
   - fixed multiple win32 app uninstall errors
   - fixed null reference exception for license channel
   - fixed error when registry key access is denied while loading apps
   - updated to cswin32 0.3.49
+  - stabilization
 
 ___
 
