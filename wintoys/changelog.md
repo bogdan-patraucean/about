@@ -1,7 +1,8 @@
 # Wintoys changelog
 
-### v1.2.34.0
+### v1.2.35.0 (in certification)
 
+  - fixed regression of Health page crashing on some systems with exotic date time formats
   - fixed dialogs border color when changing OS theme
   - fixed multiple win32 app uninstall errors
   - fixed null reference exception for license channel
