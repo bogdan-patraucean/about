@@ -1,5 +1,5 @@
 # about
-Area 52: about me and my projects.
+Area 52: about me and my projects
 
 [me](me/readme.md)
 
