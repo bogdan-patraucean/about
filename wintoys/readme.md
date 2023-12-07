@@ -29,5 +29,7 @@ ___
 
 💡 [changelog](changelog.md)
 
+❓ [faq](faq.md)
+
 🔒 [privacy policy](privacy.md)
 
