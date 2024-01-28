@@ -38,9 +38,6 @@ ___
 „_Literally a lifesaver. [...] Streamlines hours of tweaking into minutes._”\
 \- **Adam**
 
-„_The UI is such a pleasure. It's like built by Microsoft._”\
-\- **Jean**
-
 „_Way safer than the de-bloater alternatives. Love Wintoys._”\
 \- **John**
 
