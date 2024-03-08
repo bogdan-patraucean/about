@@ -1,5 +1,12 @@
 ### Frequently asked questions about Wintoys:
 
+#### Why is the app closed-source?
+
+- to ensure the most secure and smooth experience by offering availability only through Microsoft Store and winget
+- to avoid any copyright issues like fakes/copies, scams, or LLMs scrapping the code
+- to be able to offer a payed add-on with extra features for users who want to support my work
+
+
 #### How to change the language?
 
 The language is automatically set based on your Windows settings: _Time & language > Language & region > Windows display language_. 
