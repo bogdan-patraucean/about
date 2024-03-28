@@ -8,7 +8,7 @@
 
 #### How to change the language?
 
-The first language is automatically set based on the list of installed language packs from Windows settings: _Time & language > Language & region > Language_.
+The first language is automatically selected from the list of installed language packs found in Windows settings: _Time & language > Language & region > Language_.
 The list can be reordered using drag and drop and if your language is not supported, English is the fallback one.
 
 #### Why can't I run the performance benchmark if my laptop is charging?
