@@ -8,8 +8,8 @@
 
 #### How to change the language?
 
-The language is automatically set based on your Windows settings: _Time & language > Language & region > Windows display language_. 
-If your language is not supported, English is the fallback language.
+The first language is automatically set based on the list of installed language packs from Windows settings: _Time & language > Language & region > Language_.
+The list can be reordered using drag and drop and if your language is not supported, English is the fallback one.
 
 #### Why can't I run the performance benchmark if my laptop is charging?
 
