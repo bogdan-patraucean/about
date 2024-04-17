@@ -1,5 +1,47 @@
 # Wintoys changelog
 
+### v1.3.0.0 (aniversary update) - in certification
+- added **Memory diagnostic** feature under Health page
+- added **Sleeping pill** feature under  Health page
+- added **App updates** option under Health page
+- added **Windowed mode optimizations** option under Boost/Gaming settings
+- added **Watermark** option under Tweaks/Desktop
+- added two new languages: Italian and Polish
+- improved the **Junk Cleaner** by:
+     - adding missing files from the Disk Cleanup tool (error reports and dump files)
+     - adding the ability to display and select browsers individually
+     - adding file size and file count for selected items
+- the Reboot button is now hidden instead of disabled when a reboot is not required
+- improved layout alignment on the Home page and added two missing translations
+- updated some border colors to be more visible on dark theme
+- changed the benchmark button's icon and the tooltip translation
+- changed the progress ring to a progress bar for apps and services changes
+- removed process tracing for win32 apps as it was unreliable (the progress will only be displayed for store apps)
+- when an app or a service is changing, now the context menu will not be displayed since the options are disabled
+- changed the service context menu so that when it can't be stopped, the start mode is disabled
+
+### Stabilization and bug fixes
+- fixed an issue where closing the app would throw an exception (the most occuring exception)
+- handled startup crash when certain date information was unavailable on Umm Al-Qura calendars
+- fixed an issue where extracting spotlight images to a deleted destintion folder would not work
+- fixed an issue where uninstalling an app will break updating the list of apps in realtime
+- fixed not being able to open the context menu of a selected service
+- fixed an issue where hibernation file size percent was displayed as 20% when the default was actually 40%
+- handled exceptions when loading apps and startup apps
+- handled exception when stopping an unexisting service
+- handled exception when loading a benchmark file that's in use
+- handled exception when deleting an unexisting file of a startup app
+- handled exception of missing service's translations for `Auto` and `System` start modes
+- handled exception when turning off Widgets while the registry key is missing
+- handled exception when trying to kill a browser for cache cleaning
+- handled exception when counting system restore points
+
+### Technical
+- upgraded to .NET 8
+- updated WinAppSdk to 1.5.2
+- removed Mapster
+___
+
 ### v1.2.35.0
   - fixed regression of Health page crashing on some systems with exotic date time formats
   - fixed dialogs border color when changing OS theme
