@@ -40,6 +40,7 @@
 - upgraded to .NET 8
 - updated WinAppSdk to 1.5.2
 - removed Mapster
+
 ___
 
 ### v1.2.35.0
