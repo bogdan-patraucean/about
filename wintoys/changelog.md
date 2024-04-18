@@ -1,6 +1,6 @@
 # Wintoys changelog
 
-### v1.3.0.0 (aniversary update) - in certification
+### v1.3.0.0 (aniversary update)
 - added **Memory diagnostic** feature under Health page
 - added **Sleeping pill** feature under  Health page
 - added **App updates** option under Health page
