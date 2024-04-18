@@ -5,7 +5,7 @@
 - added **Sleeping pill** feature under  Health page
 - added **App updates** option under Health page
 - added **Windowed mode optimizations** option under Boost/Gaming settings
-- added **Watermark** option under Tweaks/Desktop
+- added **Watermark** option under Tweaks/Desktop (only for Insider Previews)
 - added two new languages: Italian and Polish
 - improved the **Junk Cleaner** by:
      - adding missing files from the Disk Cleanup tool (error reports and dump files)
