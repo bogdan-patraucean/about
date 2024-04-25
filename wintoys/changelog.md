@@ -1,4 +1,13 @@
 # Wintoys changelog
+### v1.3.8.0 - in certification
+* added startup entrance animation for the Home page
+* updated some translations and added a missing one
+* fixed services not updating correctly after internal or external changes
+* fixed not being able to delete a manually added startup app
+* fixed a crash caused by double clicking on a dialog button that would sometimes result in trying to open the same dialog twice
+* fixed an issue where restoring the window after opening the app maximized would place it into a weird position
+* stabilization
+___
 
 ### v1.3.0.0 (anniversary update)
 - added **Memory diagnostic** feature under Health page
