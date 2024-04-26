@@ -7,7 +7,9 @@
 * fixed a crash caused by double clicking on a dialog button that would sometimes result in trying to open the same dialog twice
 * fixed an issue where restoring the window after opening the app maximized would place it into a weird position
 * stabilization
+
 ___
+
 
 ### v1.3.0.0 (anniversary update)
 - added **Memory diagnostic** feature under Health page
