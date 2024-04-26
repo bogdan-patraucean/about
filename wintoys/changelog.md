@@ -1,5 +1,5 @@
 # Wintoys changelog
-### v1.3.8.0 - in certification
+### v1.3.8.0
 * added startup entrance animation for the Home page
 * updated some translations and added a missing one
 * fixed services not updating correctly after internal or external changes
