@@ -1,4 +1,12 @@
 # Wintoys changelog
+
+### v1.3.12.0
+* a service start mode can now be changed even if the service is stopped
+* fixed an issue where the Junk Cleaner would not open again after being closed
+* fixed an issue when loading the Store apps
+
+___
+
 ### v1.3.8.0
 * added startup entrance animation for the Home page
 * updated some translations and added a missing one
