@@ -1,6 +1,6 @@
 # Wintoys changelog
 
-### v1.3.15.0 (in certification)
+### v1.3.15.0
 * fixed an issue when stopping SYSTEM account owned scheduled tasks (SYSTEM tasks are now skipped)
 * fixed an issue when loading corrupted scheduled tasks
 * fixed an issue while closing the app
