@@ -13,7 +13,11 @@ The list can be reordered using drag and drop and if your language is not suppor
 
 ### Why can't I run the performance benchmark if my laptop is charging?
 
-Windows reports the battery status to the app and it might be the cause that your battery health is poor or discharging even if plugged in. The WEI benchmark can't be run while the battery is reported as _discharging_.
+Windows reports the battery status to the app and it might be the cause that your battery health is poor or discharging even if plugged in. The Windows Experience Index benchmark can't be run while the battery is reported as _discharging_.
+
+### How can I get a 10 score when running the performance benchmark?
+
+The maximum value supported by the assesment tool ([winsat](https://en.wikipedia.org/wiki/Windows_System_Assessment_Tool)) is **9.9**.
 
 ### Why is HAGS (hardware-accelerated GPU scheduling) disabled for my GPU?
 
