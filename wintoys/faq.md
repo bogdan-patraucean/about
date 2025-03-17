@@ -19,9 +19,13 @@ Windows reports the battery status to the app and it might be the cause that you
 
 The maximum value supported by the assesment tool ([winsat](https://en.wikipedia.org/wiki/Windows_System_Assessment_Tool)) is **9.9**.
 
-### Why is HAGS (hardware-accelerated GPU scheduling) disabled for my GPU?
+### Why is HAGS (hardware-accelerated GPU scheduling) option disabled?
 
 This option is automatically disabled if your GPU does not support it.
+
+### Why is ultimate performance power plan option disabled?
+
+Devices that support [Modern Standby](https://learn.microsoft.com/en-us/windows/win32/power/system-power-states#sleep-state-modern-standby) (S0 power state) can't have multiple power plans.
 
 ### Why is the displayed RAM capacity different than the actual capacity?
 
