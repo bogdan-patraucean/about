@@ -1,6 +1,6 @@
 # Wintoys privacy policy
 
-> ℹ️ Last update: `28.11.2023`
+> ℹ️ Last update: `08.02.2025`
 > 
 > The privacy policy describes how, what and why some data might be required to be collected. By using Wintoys, you acknowledge and consent to the practices described below.
 
@@ -12,16 +12,16 @@ For proper operation, this application might collect your email address when sen
 
 App settings are only stored locally on your device.
 
-Unhandled errors, exceptions or crashes are logged locally using [Event Viewer](https://learn.microsoft.com/en-us/shows/inside/event-viewer) and optionally in the cloud using [App Center](https://appcenter.ms/). The option to send error reports to the developer can be configured from Settings.
+Unhandled errors, exceptions or crashes are logged locally using [Event Viewer](https://learn.microsoft.com/en-us/shows/inside/event-viewer) and optionally in the cloud using [Azure Application Insights](https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview#application-insights-experiences). The option to send error reports to the developer can be configured from Settings.
 
 ## Internet connection
 
 This app requires internet connection only for the following features:
-- Home page: Network statistics
-- Health page: Repair - DISM uses internet itself
-- Health page: Updates
-- Settings page: Error reporting
-- Feedback
+- network statistics
+- repair using DISM
+- system updates
+- error reporting
+- feedback
 
 You can use the app without an internet connection but the features above will not work properly.
 
