@@ -50,6 +50,9 @@ ___
 „_Just came across this and my word the dev should be hired by Microsoft! The tool is more stable and reliable than Windows itself._”\
 \- **Cameron**
 
+„_this shit fire asf_”\
+\- **notwaddlez**
+
 „_Turned my laptop which was a bit of a ******* into a mini gaming machine._”\
 \- **Isaiah**
 
