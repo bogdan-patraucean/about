@@ -28,7 +28,7 @@ Experience Windows in your way and keep it fresh every day. Set up, debloat, opt
 ___
 
 
-Review materials from: [Linus Tech Tips](https://youtu.be/0EtgwIajVqs?si=4ePAr8rZ_9EzwrRT&t=347), [Windows Central](https://www.windowscentral.com/software-apps/wintoys-streamlined-bloatware-removal-and-quick-system-tweaks), [Neowin](https://www.neowin.net/news/wintoys-offers-a-safe-and-easy-way-to-debloat-optimize-tweak-and-repair-windows-11/) or [Pureinfotech](https://pureinfotech.com/wintoys-optimize-speed-up-windows-11/)
+Reviews and tutorials by: [Linus Tech Tips](https://youtu.be/0EtgwIajVqs?si=4ePAr8rZ_9EzwrRT&t=347), [Windows Central](https://www.windowscentral.com/software-apps/wintoys-streamlined-bloatware-removal-and-quick-system-tweaks), [Neowin](https://www.neowin.net/news/wintoys-offers-a-safe-and-easy-way-to-debloat-optimize-tweak-and-repair-windows-11/), [Pureinfotech](https://pureinfotech.com/wintoys-optimize-speed-up-windows-11/) or [How-To-Geek](https://www.howtogeek.com/i-use-this-free-tool-as-my-go-to-solution-for-most-of-my-windows-needs/)
 
 ___
 
