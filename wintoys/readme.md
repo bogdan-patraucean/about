@@ -9,21 +9,27 @@
 </p>
 
 
-Experience Windows in your way and keep it fresh every day. Set up, debloat, optimize, repair, and tweak your operating system in a simple, time-saving, yet safe approach. Maintain it in a clean, healthy and productive state while having everything you need in one place.
+<p align="center">
+  Unlock the full potential of the operating system and control every aspect of the experience in a safe and time-saving manner
+</p>
 
-- Speed up your Windows and increase the framerate in certain games just by tweaking some settings
+___
 
-- Keep your Windows clean and free up your storage using the built-in cleaner feature
+- optimize the performance of your device and increase the framerate in certain games by just tweaking some settings
+  
+- access hidden or obscured system settings
 
-- Run the most advanced repair tools available in Windows in a few clicks. Bye bye terminal!
+- keep Windows stable and free up disk space using the built-in cleaner
 
-- Take control over ads and privacy related settings
+- run the most advanced repair tools available in Windows in a few clicks, bye bye terminal!
 
-- Personalize your desktop and learn cool new features that are worth using in Windows
+- take control over ads and privacy settings
 
-- Uninstall any app, even those apps that don't have an uninstall option in Windows
+- personalize your desktop and learn cool new features that are worth using
 
-- Find out which services you don't need and safely disable them with only two clicks
+- uninstall any app, even those apps that don't have an uninstall option in Windows
+
+- find out which services you don't need and safely disable them with only two clicks
 
 ___
 
@@ -79,9 +85,6 @@ ___
 
 „_Better uninstalling experience than the built-in one, sleek design, helpful and thoughtful tips, myriad options and tweaks, no agenda, efficient, responsive, all the good adjectives._”\
 \- **Reda**
-
-„_this shit fire asf_”\
-\- **notwaddlez**
 
 ___
 
