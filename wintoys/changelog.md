@@ -1,22 +1,23 @@
 # Wintoys changelog
 
-### v1.3.15.0
+> [!NOTE] 
+> **v1.3.15.0**, Apr 29, 2024
 * fixed an issue when stopping SYSTEM account owned scheduled tasks (SYSTEM tasks are now skipped)
 * fixed an issue when loading corrupted scheduled tasks
 * fixed an issue while closing the app
 
-___
+<br>
 
-
-### v1.3.12.0
+> [!NOTE] 
+> **v1.3.12.0**, Apr 27, 2024
 * a service start mode can now be changed even if the service is stopped
 * fixed an issue where the Junk Cleaner would not open again after being closed
 * fixed an issue when loading the Store apps
 
-___
+<br>
 
-
-### v1.3.8.0
+> [!NOTE] 
+> **v1.3.8.0**, Apr 25, 2024
 * added startup entrance animation for the Home page
 * updated some translations and added a missing one
 * fixed services not updating correctly after internal or external changes
@@ -25,10 +26,10 @@ ___
 * fixed an issue where restoring the window after opening the app maximized would place it into a weird position
 * stabilization
 
-___
+<br>
 
-
-### v1.3.0.0 (anniversary update)
+> [!IMPORTANT] 
+> **v1.3.0.0** (anniversary update), Apr 18, 2024
 - added **Memory diagnostic** feature under Health page
 - added **Sleeping pill** feature under  Health page
 - added **App updates** option under Health page
@@ -69,31 +70,31 @@ ___
 - updated WinAppSdk to 1.5.2
 - removed Mapster
 
-___
+<br>
 
-### v1.2.35.0
-  - fixed regression of Health page crashing on some systems with exotic date time formats
-  - fixed dialogs border color when changing OS theme
-  - fixed multiple win32 app uninstall errors
-  - fixed null reference exception for license channel
-  - fixed error when registry key access is denied while loading apps
-  - updated to cswin32 0.3.49
-  - stabilization
+> [!NOTE] 
+> **v1.2.35.0**, Dec 2, 2023
+- fixed regression of Health page crashing on some systems with exotic date time formats
+- fixed dialogs border color when changing OS theme
+- fixed multiple win32 app uninstall errors
+- fixed null reference exception for license channel
+- fixed error when registry key access is denied while loading apps
+- updated to cswin32 0.3.49
+- stabilization
 
-___
+<br>
 
+> [!NOTE] 
+> **v1.2.25.0**, Nov 30, 2023
+- handled error for volume licenses
+- updated privacy policy and copyright range
+- fixed registry GetNumber method when passing an invalid number as string
+- updated some translations
 
-### v1.2.25.0
+<br>
 
-  - handled error for volume licenses
-  - updated privacy policy and copyright range
-  - fixed registry GetNumber method when passing an invalid number as string
-  - updated some translations
-
-___
-
-### v1.2.22.0
-
+> [!NOTE] 
+> **v1.2.22.0**, Nov 27, 2023
 - added the top requested feature: localization infrastructure and the following languages
      - Romanian
      - French
@@ -147,25 +148,25 @@ ___
       - fixed an issue showing the wrong GPU on multimonitor setups
       - fixed an issue where the GPU name is not displayed on a VM
 
-___
+<br>
 
-### v1.1.65.0
-
+> [!NOTE] 
+> **v1.1.65.0**, Jul 23, 2023
 - fixed Health page crashing on some systems with "exotic" date time formats
   
-___
+<br>
 
-### v1.1.58.0
-
-  - handled WMI unavailability (a reason for some of the startup crashes)
-  - improved spacing across the app
-  - clicking Properties on a startup app will now open the Properties dialog much faster
-  - fixed benchmark not loading all scores
+> [!NOTE] 
+> **v1.1.58.0**, Jul 20, 2023
+- handled WMI unavailability (a reason for some of the startup crashes)
+- improved spacing across the app
+- clicking Properties on a startup app will now open the Properties dialog much faster
+- fixed benchmark not loading all scores
     
-___
+<br>
 
-### v1.1.55.0
-
+> [!NOTE] 
+> **v1.1.55.0**, Jul 7, 2023
   - Windows Repair
     - changed how results are displayed: a complete list of logs will be displayed instead of a summary, accessible via a button
     - added the percentage on top of the progress bar
@@ -176,49 +177,54 @@ ___
   - logging to EventViewer when the service is not available will no longer crash or display an error
   - other stability improvements
     
-___
+<br>
 
-### v1.1.38.0
-
-  - fixed app no longer being displayed when reopened after closing it while minimized
-  - fixed tools like Windows Repair not working due to the OS encoding not being found
-  - fixed not being able to toggle some startup apps found in the Startup folder
-  - fixed error when resetting apps that don't have settings saved locally
-  - apps that might not have the Installed Date available are now displayed
-  - added Microsoft.VCLibs.140.00.UWPDesktop as a dependency because it might fix some startup crashes
-  - added warning for when a startup app that's an antivirus can't be disabled
-  - other stability improvements
+> [!NOTE] 
+> **v1.1.38.0**, Jun 22, 2023
+- fixed app no longer being displayed when reopened after closing it while minimized
+- fixed tools like Windows Repair not working due to the OS encoding not being found
+- fixed not being able to toggle some startup apps found in the Startup folder
+- fixed error when resetting apps that don't have settings saved locally
+- apps that might not have the Installed Date available are now displayed
+- added Microsoft.VCLibs.140.00.UWPDesktop as a dependency because it might fix some startup crashes
+- added warning for when a startup app that's an antivirus can't be disabled
+- other stability improvements
     
-___
+<br>
 
-### v1.1.32.0
-
-  - added search by family name for store apps
-  - removed Create Restore Point button as the feature was not working reliably
-  - updated, replaced and removed some unused or legacy packages
-  - tools like Windows Repair, Battery Report, System Restore, should now work no matter what language is set in the OS
-  - fixed hibernation file size percent input format errors
-  - fixed appxmanifest root error for startup apps
-  - fixed Drive Optimization by replacing powershell commands with TaskScheduler library
-  - fixed Search context menu option (apps, services) for some default browsers not working
-  - fixed not launching the app as admin if the user was not an administrator (this was causing a lot of access denied errors)
-  - other stability improvements
+> [!NOTE] 
+> **v1.1.32.0**, Jun 17, 2023
+- added search by family name for store apps
+- removed Create Restore Point button as the feature was not working reliably
+- updated, replaced and removed some unused or legacy packages
+- tools like Windows Repair, Battery Report, System Restore, should now work no matter what language is set in the OS
+- fixed hibernation file size percent input format errors
+- fixed appxmanifest root error for startup apps
+- fixed Drive Optimization by replacing powershell commands with TaskScheduler library
+- fixed Search context menu option (apps, services) for some default browsers not working
+- fixed not launching the app as admin if the user was not an administrator (this was causing a lot of access denied errors)
+- other stability improvements
     
-___
+<br>
 
-### v1.1.16.0
+> [!NOTE] 
+> **v1.1.16.0**, May 23, 2023
+- rephrased all descriptions to be more clear for both Boost and Health pages
+- added recommendations and details as tooltips over the toggles so you know all the benefits and downsides of those settings
+- added Classic context menu tweak for Windows 11 under Tweaks > Desktop
+- added Taskbar clock seconds tweak for Windows 11 Moment 3 under Tweaks > Desktop
+- added Camera on/off indicator under Tweaks > Privacy
+- added warning when trying to uninstall Microsoft Store and App Installer
+- added Error Reporting to improve app stability under Settings
+- added revision version number for Win32 apps
+- added a warning for when the Ultimate Performance Power Plan is not supported
+- improved About section under Settings
+- improved Autoinstall suggestions by covering more cases (apps should no longer reinstall after Windows updates)
+- trying to safely uninstall Edge no longer works so the option is now disabled
+- fixed VBS not disabling
+- other stability improvements
 
-  - rephrased all descriptions to be more clear for both Boost and Health pages
-  - added recommendations and details as tooltips over the toggles so you know all the benefits and downsides of those settings
-  - added Classic context menu tweak for Windows 11 under Tweaks > Desktop
-  - added Taskbar clock seconds tweak for Windows 11 Moment 3 under Tweaks > Desktop
-  - added Camera on/off indicator under Tweaks > Privacy
-  - added warning when trying to uninstall Microsoft Store and App Installer
-  - added Error Reporting to improve app stability under Settings
-  - added revision version number for Win32 apps
-  - added a warning for when the Ultimate Performance Power Plan is not supported
-  - improved About section under Settings
-  - improved Autoinstall suggestions by covering more cases (apps should no longer reinstall after Windows updates)
-  - trying to safely uninstall Edge no longer works so the option is now disabled
-  - fixed VBS not disabling
-  - other stability improvements
+  <br>
+
+> [!IMPORTANT] 
+> **v1.0.46.0** (release), Apr 18, 2023
