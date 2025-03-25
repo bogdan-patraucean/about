@@ -1,6 +1,6 @@
 # Wintoys changelog
 
->**v1.3.15.0**, Apr 29, 2024
+> ### **v1.3.15.0**, Apr 29, 2024
 
 
 * fixed an issue when stopping SYSTEM account owned scheduled tasks (SYSTEM tasks are now skipped)
@@ -9,7 +9,7 @@
 
 <br>
 
-> **v1.3.12.0**, Apr 27, 2024
+> ### **v1.3.12.0**, Apr 27, 2024
 
 
 * a service start mode can now be changed even if the service is stopped
@@ -18,7 +18,7 @@
 
 <br>
 
-> **v1.3.8.0**, Apr 25, 2024
+> ### **v1.3.8.0**, Apr 25, 2024
 
 
 * added startup entrance animation for the Home page
@@ -31,7 +31,7 @@
 
 <br>
 
-> **v1.3.0.0** (anniversary update), Apr 18, 2024
+> ### **v1.3.0.0** (anniversary update), Apr 18, 2024
 
 
 - added **Memory diagnostic** feature under Health page
@@ -76,7 +76,7 @@
 
 <br>
 
-> **v1.2.35.0**, Dec 2, 2023
+> ### **v1.2.35.0**, Dec 2, 2023
 
 
 - fixed regression of Health page crashing on some systems with exotic date time formats
@@ -89,7 +89,7 @@
 
 <br>
 
-> **v1.2.25.0**, Nov 30, 2023
+> ### **v1.2.25.0**, Nov 30, 2023
 
 
 - handled error for volume licenses
@@ -99,7 +99,7 @@
 
 <br>
 
-> **v1.2.22.0**, Nov 27, 2023
+> ### **v1.2.22.0**, Nov 27, 2023
 
 
 - added the top requested feature: localization infrastructure and the following languages
@@ -157,14 +157,14 @@
 
 <br>
 
-> **v1.1.65.0**, Jul 23, 2023
+> ### **v1.1.65.0**, Jul 23, 2023
 
 
 - fixed Health page crashing on some systems with "exotic" date time formats
   
 <br>
 
-> **v1.1.58.0**, Jul 20, 2023
+> ### **v1.1.58.0**, Jul 20, 2023
 
 
 - handled WMI unavailability (a reason for some of the startup crashes)
@@ -174,7 +174,7 @@
     
 <br>
  
-> **v1.1.55.0**, Jul 7, 2023
+> ### **v1.1.55.0**, Jul 7, 2023
 
 
   - Windows Repair
@@ -189,7 +189,7 @@
     
 <br>
 
-> **v1.1.38.0**, Jun 22, 2023
+> ### **v1.1.38.0**, Jun 22, 2023
 
 
 - fixed app no longer being displayed when reopened after closing it while minimized
@@ -203,7 +203,7 @@
     
 <br>
 
-> **v1.1.32.0**, Jun 17, 2023
+> ### **v1.1.32.0**, Jun 17, 2023
 
 
 - added search by family name for store apps
@@ -219,7 +219,7 @@
     
 <br>
 
-> **v1.1.16.0**, May 23, 2023
+> ### **v1.1.16.0**, May 23, 2023
 
 
 - rephrased all descriptions to be more clear for both Boost and Health pages
@@ -239,4 +239,4 @@
 
   <br>
  
-> **v1.0.46.0** (release), Apr 18, 2023
+> ### **v1.0.46.0** (release), Apr 18, 2023
