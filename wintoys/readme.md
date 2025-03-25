@@ -50,9 +50,6 @@ ___
 „_Just came across this and my word the dev should be hired by Microsoft! The tool is more stable and reliable than Windows itself._”\
 \- **Cameron**
 
-„_this shit fire asf_”\
-\- **notwaddlez**
-
 „_Turned my laptop which was a bit of a ******* into a mini gaming machine._”\
 \- **Isaiah**
 
@@ -82,6 +79,9 @@ ___
 
 „_Better uninstalling experience than the built-in one, sleek design, helpful and thoughtful tips, myriad options and tweaks, no agenda, efficient, responsive, all the good adjectives._”\
 \- **Reda**
+
+„_this shit fire asf_”\
+\- **notwaddlez**
 
 ___
 
