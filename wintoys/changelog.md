@@ -1,6 +1,5 @@
 # Wintoys changelog
 
-> [!NOTE]
 >**v1.3.15.0**, Apr 29, 2024
 
 
@@ -11,6 +10,8 @@
 <br>
 
 > **v1.3.12.0**, Apr 27, 2024
+
+
 * a service start mode can now be changed even if the service is stopped
 * fixed an issue where the Junk Cleaner would not open again after being closed
 * fixed an issue when loading the Store apps
@@ -18,6 +19,8 @@
 <br>
 
 > **v1.3.8.0**, Apr 25, 2024
+
+
 * added startup entrance animation for the Home page
 * updated some translations and added a missing one
 * fixed services not updating correctly after internal or external changes
@@ -29,6 +32,8 @@
 <br>
 
 > **v1.3.0.0** (anniversary update), Apr 18, 2024
+
+
 - added **Memory diagnostic** feature under Health page
 - added **Sleeping pill** feature under  Health page
 - added **App updates** option under Health page
@@ -72,6 +77,8 @@
 <br>
 
 > **v1.2.35.0**, Dec 2, 2023
+
+
 - fixed regression of Health page crashing on some systems with exotic date time formats
 - fixed dialogs border color when changing OS theme
 - fixed multiple win32 app uninstall errors
@@ -83,6 +90,8 @@
 <br>
 
 > **v1.2.25.0**, Nov 30, 2023
+
+
 - handled error for volume licenses
 - updated privacy policy and copyright range
 - fixed registry GetNumber method when passing an invalid number as string
@@ -91,6 +100,8 @@
 <br>
 
 > **v1.2.22.0**, Nov 27, 2023
+
+
 - added the top requested feature: localization infrastructure and the following languages
      - Romanian
      - French
@@ -147,11 +158,15 @@
 <br>
 
 > **v1.1.65.0**, Jul 23, 2023
+
+
 - fixed Health page crashing on some systems with "exotic" date time formats
   
 <br>
 
 > **v1.1.58.0**, Jul 20, 2023
+
+
 - handled WMI unavailability (a reason for some of the startup crashes)
 - improved spacing across the app
 - clicking Properties on a startup app will now open the Properties dialog much faster
@@ -160,6 +175,8 @@
 <br>
  
 > **v1.1.55.0**, Jul 7, 2023
+
+
   - Windows Repair
     - changed how results are displayed: a complete list of logs will be displayed instead of a summary, accessible via a button
     - added the percentage on top of the progress bar
@@ -173,6 +190,8 @@
 <br>
 
 > **v1.1.38.0**, Jun 22, 2023
+
+
 - fixed app no longer being displayed when reopened after closing it while minimized
 - fixed tools like Windows Repair not working due to the OS encoding not being found
 - fixed not being able to toggle some startup apps found in the Startup folder
@@ -185,6 +204,8 @@
 <br>
 
 > **v1.1.32.0**, Jun 17, 2023
+
+
 - added search by family name for store apps
 - removed Create Restore Point button as the feature was not working reliably
 - updated, replaced and removed some unused or legacy packages
@@ -199,6 +220,8 @@
 <br>
 
 > **v1.1.16.0**, May 23, 2023
+
+
 - rephrased all descriptions to be more clear for both Boost and Health pages
 - added recommendations and details as tooltips over the toggles so you know all the benefits and downsides of those settings
 - added Classic context menu tweak for Windows 11 under Tweaks > Desktop
