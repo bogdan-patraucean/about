@@ -1,6 +1,9 @@
 # Wintoys changelog
 
+> [!NOTE]
 >**v1.3.15.0**, Apr 29, 2024
+
+
 * fixed an issue when stopping SYSTEM account owned scheduled tasks (SYSTEM tasks are now skipped)
 * fixed an issue when loading corrupted scheduled tasks
 * fixed an issue while closing the app
