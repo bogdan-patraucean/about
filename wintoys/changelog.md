@@ -4,7 +4,7 @@
 
 - designed a new **logo**, with colors dinamically adapting to your theme (light or dark); you might have to rebuild the icon's cache for the icon to update everywhere in the system - you can use Wintoys for this: Health section > Icons cache
 - revamped the welcome experience (it's now fullscreen and includes a shortcut for system restore)
-- added a neat titlebar app icon animation will play when the app opens
+- added a neat titlebar app icon animation that will play when the app opens
 - added system settings restoration: you can now undo all the changes to the state when the app was first opened; even settings changed by the system itself will be detected
 - redesigned sorting and filtering dropdowns across all pages and improved their performance
 - added storage system property on the Home page, with on-hover details about partitions, disk type, disk interface, disk model and disk serial number
