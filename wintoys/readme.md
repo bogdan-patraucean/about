@@ -1,6 +1,6 @@
 # Wintoys
 
-![home screenshot](assets/home.png)
+![home screenshot](assets/main.png)
 
 <p align="center">
   <a style="text-decoration:none" href="https://apps.microsoft.com/detail/9P8LTPGCBZXD" target="_blank">
