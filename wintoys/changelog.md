@@ -1,5 +1,76 @@
 # Wintoys changelog
 
+> ### **v2.0.76.0** (major update), Mar 31, 2025
+
+- designed a new **logo**, with colors dinamically adapting to your theme (light or dark); you might have to rebuild the icon's cache for the icon to update everywhere in the system - you can use Wintoys for this: Health section > Icons cache
+- revamped the welcome experience (it's now fullscreen and includes a shortcut for system restore)
+- added a neat titlebar app icon animation will play when the app opens
+- added system settings restoration: you can now undo all the changes to the state when the app was first opened; even settings changed by the system itself will be detected
+- redesigned sorting and filtering dropdowns across all pages and improved their performance
+- added storage system property on the Home page, with on-hover details about partitions, disk type, disk interface, disk model and disk serial number
+- added uptime system property on the Home page
+- system properties such as storage used space or video card driver will update periodically to reflect the system changes in real time
+- settings that require an explorer.exe restart will no longer automatically restart it, letting you to choose the right moment; you will be informed that a restart is requierd with the _Action required_ button from the bottom left, which once clicked will offer you the option to restart explorer.exe
+- File explorer section changes and improvements:
+    - added _Classic interface_ option (on Windows 11)
+    - added options to set _Home_ and _Gallery_ items (on Windows 11)
+    - changing _Hidden system files and items_ or _File extensions_ options no longer require a refresh of File explorer
+    - the toast to reopen File explorer will now only appear if a window is already opened
+- added _Digital Markets Act_ option under Tweaks > System; unlocks exclusive features for EEA (European Economic Area), such as being able to uninstall Edge, but only by launching the uninstaller from a Microsoft signed process like Control Panel or the Settings app; this option does not change your region settings
+- added _End task_ option under Tweaks > System (on Windows 11)
+- added _Home page in settings_ option under Tweaks > Ads (on Windows 11); this will remove the Home page in Windows settings app
+- added new _Super-user_ section under Tweaks with the following options:
+    - God mode - moved from the System section
+    - Developer mode - new
+    - User account control - moved from the System section
+    - User choice protection driver (UCPD) - new
+- added an option to receive a notification whenever a startup app is enabled (on Windows 11)
+- changing _This PC_ and _Recycle Bin_ options no longer require a manual desktop refresh
+- changing _Clock with seconds_ option no longer requires an explorer.exe restart on Windows 11
+- the displayed video card will now always be the high power one if present (external or dedicated)
+- changed validation behavior for all content dialogs due to consistency reasons (now the action button will be disabled until all validation requirements are met)
+- replaced error reporting service: AppCenter is being shutdown by Microsoft on 31st of March, so it was replaced by Application Insights
+- updated UAC option icon to match the system one
+- improved applications size calculation accuracy and sent an email to Gaben to fix Steam not reporting the size of games according to Windows guidelines
+- replaced the teaching tip with a tooltip so a click is no longer needed for the information to be displayed (consumes less memory as well)
+- the Cleanup section was moved at the top of the page for a more convenient access
+- the junk cleaner now supports Opera and Brave browsers, and crash dumps files in the Error reporting category
+- added entrance missing animations for apps and services pages (will play when the pages are set as a landing page)
+- the option to unpin everything from the taskbar was removed due to the new [UCPD](https://www.reddit.com/r/Windows11/comments/1imcltj/microsoft_added_a_hidden_driver_that_blocks_third/) service that blocks changes to certain registry keys
+- the uninstall option will be greyed out for Windows Security, App Installer and Settings app because they can no longer be removed using official Windows APIs
+- repair tool logs dialog now has a smaller font for better readability where there's a lot of text
+- a native restart API will now be used to restart Windows when a restart is required to apply some settings
+- the _Ultimate performance power plan_ option will now be disabled on unsupported devices
+- removed _Watermark_ option under Tweaks > Desktop due to Microsoft making it impossible to safely remove it in recent versions of Insider Preview
+
+
+#### Stabilization and bug fixes
+
+- fixed an issue where the window size was going out of bounds of the screen on smaller resolutions
+- fixed a library issue when loading scheduled tasks (noisy scheduled tasks that require a password to be disabled will be ignored due to security reason)
+- fixed _Action required_ button not hiding when reverting the wallpaper quality setting to the original value
+- fixed an issue where buttons with progress rings were not preserving their space (meaning their size would change to fit the progress ring)
+- fixed an issue with system model and manufacturer not being correctly identified on laptops
+- fixed an issue where _Delivery optimization_ option was displayed as disabled when _Devices on the internet and my local network option_ was selected in Windows settings app
+- fixed an issue where the divider between sections in a tooltip for services would appear when there is no content to separate
+- fixed a random infinite loading when uninstalling modern (Store) apps
+- fixed not correctly setting Windows update mode when Windows DisplayVersion is not found in the registry
+- fixed an issue where the apps page will crash on devices with Umm Al-Quara calendars
+- fixed an issue where the apps page might not load due to versioning containing characters
+- fixed an annoying refresh button animation when uninstalling an app or changing a service
+- fixed not logging all home page errors for system properties in the EventViewer
+
+
+#### Known issues
+
+- Alt + Tab might make the app freeze; this is a known WinUI 3 bug that has not yet been fixed by Microsoft, you can find more details about the issue [here](https://github.com/microsoft/microsoft-ui-xaml/issues/10213)
+
+#### Technical
+- removed Powershell SDK dependency and reduced app size from 65 to 48 MB
+- updated packages
+
+<br>
+
 > ### **v1.3.15.0**, Apr 29, 2024
 
 
@@ -53,7 +124,7 @@
 - when an app or a service is changing, now the context menu will not be displayed since the options are disabled
 - changed the service context menu so that when it can't be stopped, the start mode is disabled
 
-### Stabilization and bug fixes
+#### Stabilization and bug fixes
 - fixed an issue where closing the app would throw an exception (the most occuring exception)
 - handled startup crash when certain date information was unavailable on Umm Al-Qura calendars
 - fixed an issue where extracting spotlight images to a deleted destintion folder would not work
@@ -69,7 +140,7 @@
 - handled exception when trying to kill a browser for cache cleaning
 - handled exception when counting system restore points
 
-### Technical
+#### Technical
 - upgraded to .NET 8
 - updated WinAppSdk to 1.5.2
 - removed Mapster
@@ -143,6 +214,7 @@
  - replaced performance counters for network traffic speed
  - replaced performance counters with PerfLib to query the GPU usage
  - issues and bugs:
+ 
       - fixed an issue where turning off _Lockscreen fun facts, tips and tricks_ would disable the wallpapers slideshow
       - fixed an issue where remaining orphan apps registry keys would not be removed when trying to uninstall them
       - fixed an issue where expanding the Cleanup section would render the transition with lag
@@ -174,13 +246,16 @@
     
 <br>
  
+
 > ### **v1.1.55.0**, Jul 7, 2023
 
 
   - Windows Repair
-    - changed how results are displayed: a complete list of logs will be displayed instead of a summary, accessible via a button
-    - added the percentage on top of the progress bar
-    - fixed not enabling Scan and Repair buttons in some cases where internet was reported as disconnected
+
+     - changed how results are displayed: a complete list of logs will be displayed instead of a summary, accessible via a button
+     - added the percentage on top of the progress bar
+     - fixed not enabling Scan and Repair buttons in some cases where internet was reported as disconnected
+
   - fixed enabling defragmentation when task folder does not exist
   - improved hibernation percent file size format validations
   - replaced powercfg with win32 apis to avoid issues for different languages
