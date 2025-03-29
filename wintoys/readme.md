@@ -30,6 +30,8 @@ ___
 - uninstall any app, even those apps that don't have an uninstall option in Windows
 
 - find out which services you don't need and safely disable them with only two clicks
+  
+- see specs about your device and statistics in real time
 
 ___
 
