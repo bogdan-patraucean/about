@@ -1,6 +1,6 @@
 # Wintoys changelog
 
-> ### **v2.0.76.0** (major update) • Mar 31, 2025
+> ### **v2.0.80.0** (major update) • Mar 31, 2025
 
 - designed a new **logo**, with colors dinamically adapting to your theme (light or dark); you might have to rebuild the icon's cache for the icon to update everywhere in the system - you can use Wintoys for this: Health section > Icons cache
 - revamped the welcome experience (it's now fullscreen and includes a shortcut for system restore)
