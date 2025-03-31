@@ -23,7 +23,7 @@
     - God mode - moved from the System section
     - Developer mode - new
     - User account control - moved from the System section
-    - User choice protection driver (UCPD) - new
+    - User choice protection driver (UCPD) - new (hidden if the service is completely missing)
 - added an option to receive a notification whenever a startup app is enabled (on Windows 11)
 - changing _This PC_ and _Recycle Bin_ options no longer require a manual desktop refresh
 - changing _Clock with seconds_ option no longer requires an explorer.exe restart on Windows 11
