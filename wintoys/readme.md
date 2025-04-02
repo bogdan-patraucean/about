@@ -6,8 +6,8 @@
   <a style="text-decoration:none" href="https://apps.microsoft.com/detail/9P8LTPGCBZXD" target="_blank">
     <img src="https://img.shields.io/badge/Microsoft%20Store-Download-brightgreen" alt="Store link" />
   </a>
-  <a style="text-decoration:none" href="https://apps.microsoft.com/detail/9P8LTPGCBZXD" target="_blank">
-    <img src="https://img.shields.io/badge/1M-blue" alt="Store link" />
+  <a style="text-decoration:none;pointer-events:none;" target="_blank">
+    <img src="https://img.shields.io/badge/1M-blue" alt="Number of downloads" />
   </a>
 </p>
 
