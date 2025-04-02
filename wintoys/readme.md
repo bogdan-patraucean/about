@@ -1,7 +1,3 @@
-<head>
-  <link rel="icon" href="/assets/v2.png" type="image/png">
-</head>
-
 # Wintoys
 
 ![home screenshot](assets/main.png)
