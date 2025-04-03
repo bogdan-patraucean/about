@@ -11,15 +11,15 @@
   </a>
 </p>
 
-<br>
-
-<h4 align="center" style="text-align: center;">
+<h5 align="center" style="text-align: center;">
   Unlock the full potential of the operating system and control every aspect of the experience in a safe and time-saving manner
-</h4>
+</h5>
 
 <br>
 
 ___
+
+<br>
 
 - optimize the performance of your device and increase the framerate in certain games by just tweaking some settings
   
@@ -39,12 +39,14 @@ ___
   
 - see specs about your device and statistics in real time
 
+<br>
+
 ___
 
 <br>
 
 <h3 align="center" style="text-align: center;">
-  media outlet reviews & tutorial
+  media outlet reviews & tutorials
 </h3>
 
 <h4 align="center" style="text-align: center;" markdown="1">
