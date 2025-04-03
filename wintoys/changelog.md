@@ -16,7 +16,7 @@
     - added options to set _Home_ and _Gallery_ items (on Windows 11)
     - changing _Hidden system files and items_ or _File extensions_ options no longer require a refresh of File explorer
     - the toast to reopen File explorer will now only appear if a window is already opened
-- added _Digital Markets Act_ option under Tweaks > System; unlocks exclusive features for EEA (European Economic Area), such as being able to uninstall Edge, but only by launching the uninstaller from a Microsoft signed process like Control Panel or the Settings app; this option does not change your region settings
+- added _Digital Markets Act_ option under Tweaks > System; unlocks exclusive features for EEA (European Economic Area), such as being able to uninstall Edge, but only by launching the uninstaller from a Microsoft signed process like Control Panel or the Settings app; this option does not change your region settings, but Microsoft made it work only with country  codes, not region codes; for example, if you live in Bahrain, you'd have to set the Windows region to India
 - added _End task_ option under Tweaks > System (on Windows 11)
 - added _Home page in settings_ option under Tweaks > Ads (on Windows 11); this will remove the Home page in Windows settings app
 - added new _Super-user_ section under Tweaks with the following options:
