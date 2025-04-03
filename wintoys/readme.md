@@ -47,7 +47,7 @@ ___
   media outlet reviews & tutorial
 </h3>
 
-<h4 align="center" style="text-align: center;">
+<h4 align="center" style="text-align: center;" markdown="1">
   
   [Linus Tech Tips](https://youtu.be/0EtgwIajVqs?si=4ePAr8rZ_9EzwrRT&t=347) • [Windows Central](https://www.windowscentral.com/software-apps/wintoys-streamlined-bloatware-removal-and-quick-system-tweaks) • [Neowin](https://www.neowin.net/news/wintoys-offers-a-safe-and-easy-way-to-debloat-optimize-tweak-and-repair-windows-11) • [Beebom](https://beebom.com/wintoys-every-windows-power-user-should-use) • [Pureinfotech](https://pureinfotech.com/wintoys-optimize-speed-up-windows-11) • [How-To-Geek](https://www.howtogeek.com/i-use-this-free-tool-as-my-go-to-solution-for-most-of-my-windows-needs)
   
