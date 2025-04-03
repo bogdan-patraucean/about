@@ -1,8 +1,12 @@
+<p align="center" style="text-align: center;" markdown="1">
+  
 # Wintoys
+
+</p>
 
 <img style="border-radius:10px" src="assets/main.png" alt="Home screenshot" />
 
-<p align="center">
+<p align="center" style="text-align: center;">
   <a style="text-decoration:none" href="https://apps.microsoft.com/detail/9P8LTPGCBZXD" target="_blank">
     <img src="https://img.shields.io/badge/Microsoft%20Store-Download-blue" alt="Store link" />
   </a>
@@ -11,7 +15,7 @@
   </a>
 </p>
 
-<p align="center">
+<p align="center" style="text-align: center;">
   Unlock the full potential of the operating system and control every aspect of the experience in a safe and time-saving manner
 </p>
 
@@ -37,8 +41,17 @@ ___
 
 ___
 
+<p align="center" style="text-align: center;" markdown="1">
+  
+  ### media outlets reviews & tutorial
+  
+</p>
 
-Reviews and tutorials by: [Linus Tech Tips](https://youtu.be/0EtgwIajVqs?si=4ePAr8rZ_9EzwrRT&t=347), [Windows Central](https://www.windowscentral.com/software-apps/wintoys-streamlined-bloatware-removal-and-quick-system-tweaks), [Neowin](https://www.neowin.net/news/wintoys-offers-a-safe-and-easy-way-to-debloat-optimize-tweak-and-repair-windows-11), [Beebom](https://beebom.com/wintoys-every-windows-power-user-should-use), [Pureinfotech](https://pureinfotech.com/wintoys-optimize-speed-up-windows-11) or [How-To-Geek](https://www.howtogeek.com/i-use-this-free-tool-as-my-go-to-solution-for-most-of-my-windows-needs)
+<p align="center" style="text-align: center;" markdown="1">
+  
+  [Linus Tech Tips](https://youtu.be/0EtgwIajVqs?si=4ePAr8rZ_9EzwrRT&t=347) • [Windows Central](https://www.windowscentral.com/software-apps/wintoys-streamlined-bloatware-removal-and-quick-system-tweaks) • [Neowin](https://www.neowin.net/news/wintoys-offers-a-safe-and-easy-way-to-debloat-optimize-tweak-and-repair-windows-11) • [Beebom](https://beebom.com/wintoys-every-windows-power-user-should-use) • [Pureinfotech](https://pureinfotech.com/wintoys-optimize-speed-up-windows-11) • [How-To-Geek](https://www.howtogeek.com/i-use-this-free-tool-as-my-go-to-solution-for-most-of-my-windows-needs)
+  
+</p>
 
 ___
 
