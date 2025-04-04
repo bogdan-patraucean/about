@@ -118,8 +118,6 @@ ___
 
 <br>
 
-<footer>
-  <div align="center" style="text-align: center;" markdown="1">
-     🇷🇴 🇪🇺
-  </div>
-</footer>
+<p align="center" style="text-align: center;">
+    <img width="30rem" src="../assets/ro.svg" alt="Romania flag" />&nbsp;<img width="30rem" src="../assets/eu.svg" alt="European Union flag" />
+</p>
