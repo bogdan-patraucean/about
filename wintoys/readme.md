@@ -109,9 +109,17 @@ ___
 
 ___
 
-💡 [changelog](changelog.md)
 
-❓ [faq](faq.md)
+<h4 align="center" style="text-align: center;" markdown="1">
+  
+  💡 [changelog](changelog.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ❓ [faq](faq.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🔒 [privacy policy](privacy.md)
+  
+</h4>
 
-🔒 [privacy policy](privacy.md)
+<br>
 
+<footer>
+  <div align="center" style="text-align: center;" markdown="1">
+     🇷🇴 🇪🇺
+  </div>
+</footer>
