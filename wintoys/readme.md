@@ -107,6 +107,9 @@ ___
 „_Better uninstalling experience than the built-in one, sleek design, helpful and thoughtful tips, myriad options and tweaks, no agenda, efficient, responsive, all the good adjectives._”\
 \- **Reda**
 
+„_What the army of Microsoft developers should have made in the first place! _”\
+\- **Jacques**
+
 ___
 
 
