@@ -1,5 +1,17 @@
 # Wintoys changelog
 
+> ### **v2.0.91.0** • Jun 17, 2025
+
+- improved security of the feedback process
+- updated libraries
+- fixed an issue where Alt + Tab might make the app freeze
+- fixed an unhandled exception when the store context might not be available on the device
+- fixed an issue where a removed profile option would break the compatibility scanning
+- upgraded .sln to .slnx
+- updated translations
+
+  <br>
+  
 > ### **v2.0.81.0** (major update) • Mar 31, 2025
 
 - designed a new **logo**, with colors dinamically adapting to your theme (light or dark); you might have to rebuild the icon's cache for the icon to update everywhere in the system - you can use Wintoys for this: Health section > Icons cache
