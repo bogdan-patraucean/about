@@ -11,7 +11,6 @@
 - upgraded .sln to .slnx
 - updated translations
 
-
   <br>
   
 > ### **v2.0.81.0** (major update) • Mar 31, 2025
