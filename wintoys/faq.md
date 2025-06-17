@@ -11,6 +11,12 @@
 The first language is automatically selected from the list of installed language packs found in Windows settings:_Time & language > Language & region > Language_.
 The list can be reordered using drag and drop and if your language is not supported, English is the fallback one.
 
+### How to uninstall?
+
+This is a modern Windows app, it can't be [uninstalled](https://support.microsoft.com/en-us/windows/uninstall-or-remove-apps-and-programs-in-windows-4b55f974-2cc6-2d2b-d092-5905080eaf98#id0ebd=windows_11) from the Control Panel like the old ones, you can either:
+- search for the app in the Start menu - right click - uninstall
+- search for the app in the Windows settings app - installed apps section - click on the 3-dot menu - uninstall
+
 ### Why can't I run the performance benchmark if my laptop is charging?
 
 Windows reports the battery status to the app and it might be the cause that your battery health is poor or discharging even if plugged in. The Windows Experience Index benchmark can't be run while the battery is reported as _discharging_.
