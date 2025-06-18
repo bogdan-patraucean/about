@@ -4,10 +4,10 @@
 
 <p align="center" style="text-align: center;">
   <a style="text-decoration:none" href="https://get.microsoft.com/installer/download/9P8LTPGCBZXD?mode=direct&referrer=appbadge&cid=Github" target="_blank">
-    <img src="https://img.shields.io/badge/Microsoft%20Store-Download-blue" alt="Store link" />
+    <img src="https://img.shields.io/badge/Microsoft%20Store-Download-blue" alt="Installer link" />
   </a>
   <a style="text-decoration:none;pointer-events:none;" target="_blank">
-    <img src="https://img.shields.io/badge/1M-blue" alt="Number of downloads" />
+    <img src="https://img.shields.io/badge/1.1M-blue" alt="Number of downloads" />
   </a>
 </p>
 
