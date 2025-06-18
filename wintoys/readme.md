@@ -3,7 +3,7 @@
 <img style="border-radius:10px" src="assets/main.png" alt="Home screenshot" />
 
 <p align="center" style="text-align: center;">
-  <a style="text-decoration:none" href="https://apps.microsoft.com/detail/9P8LTPGCBZXD?referrer=appbadge&cid=Github&mode=direct" target="_blank">
+  <a style="text-decoration:none" href="https://get.microsoft.com/installer/download/9P8LTPGCBZXD?mode=direct&referrer=appbadge&cid=Github" target="_blank">
     <img src="https://img.shields.io/badge/Microsoft%20Store-Download-blue" alt="Store link" />
   </a>
   <a style="text-decoration:none;pointer-events:none;" target="_blank">
