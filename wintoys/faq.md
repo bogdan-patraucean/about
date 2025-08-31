@@ -53,3 +53,7 @@ This means you have a [volume](https://learn.microsoft.com/en-us/licensing/produ
 ### How do I get rid of _"Some settings are managed by your organization"_ message from the settings app?
 
 This message appears when certain Windows settings configured in [Group Policies](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831791(v=ws.11)) are changed (either by your organization or by third party apps). You can find a tutorial to get rid of it [here](https://answers.microsoft.com/en-us/windows/forum/windows_10-other_settings/some-of-these-settings-are-hidden-or-managed-by/0f43eb7c-b01b-4615-8cf7-db047ac044aa), but settings affected by this message will reset to their default.
+
+### Why can't I uninstall Microsoft Edge even if I enabled the Digital Markets Act option?
+
+Uninstalling Microsoft Edge [is not supported on LTSC versions of Windows](https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/faq#can-the-edge-browser-be-uninstalled-in-iot-enterprise), with no exception in EEA, as Edge is consideres a "_core_" part of the OS.
