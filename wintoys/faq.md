@@ -56,4 +56,4 @@ This message appears when certain Windows settings configured in [Group Policies
 
 ### Why can't I uninstall Microsoft Edge even if I enabled the Digital Markets Act option?
 
-Uninstalling Microsoft Edge [is not supported on LTSC versions of Windows](https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/faq#can-the-edge-browser-be-uninstalled-in-iot-enterprise), with no exception in EEA, as Edge is consideres a "_core_" part of the OS.
+Uninstalling Microsoft Edge [is not supported on LTSC versions of Windows](https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/faq#can-the-edge-browser-be-uninstalled-in-iot-enterprise), with no exception for  EEA, as Edge is considered a "_core_" part of the OS.
