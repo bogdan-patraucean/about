@@ -71,6 +71,9 @@ ___
 „_It's a miracle that this is free, thank you so much!_”\
 \- **Joe**
 
+„_This app really made me see all the potential my PC can do, special thanks to the developer!_”\
+\- **Ruiz**
+
 „_I usually only review a product if it's great or terrible. This one is great, and not because Linus said so, but because it is actually useful for me._”\
 \- **Aaron**
 
@@ -124,5 +127,6 @@ ___
 <p align="center" style="text-align: center;">
     <img width="30rem" src="../assets/ro.svg" alt="Romania flag" />&nbsp;<img width="30rem" src="../assets/eu.svg" alt="European Union flag" />
 </p>
+
 
 
