@@ -1,5 +1,95 @@
 # Wintoys changelog
 
+> ### **v2.4.6.0** (25H2 ready update) • Oct 3, 2025
+
+ - bumped minimum supported application version from 19041.0 to 19044.1706 (this will make sure the OS contains the update that allows the application to run elevated, as 1706 servicing update is required and [MSIX does not yet cover this scenario](https://github.com/microsoft/WindowsAppSDK/issues/5730), (Windows 10 will still be supported despite the fact that official suport is ending this month)
+ - improved welcome screen _end presentation_ flow UX (the button will now be easier to spot)
+- Storage cleaner improvements:
+  - added support for all browser release channels (Beta, Dev, Canary, Nightly, etc.)
+  - added label with the free space available on disk C
+  - added a lot of new paths to scan for temporary files in the already existing categories like LiveKernelReports folder
+  - relocated the tooltip details to be always visible
+  - renamed the junk cleaner to storage cleaner, as not everything is junk (icon updated as well)
+  - items from the tree that don't occupy space on the disk will no longer be displayed (except for the System category)
+  - improved performance of the deletion process
+  - added new items:
+     - Logs (Windows logs)
+     - Others (only apps or services that come packaged with Windows, like Remote Desktop, Widgets, or Nuget, for developers)
+  - fixed a bug showing an incorrect number of files deleted in the toast notification
+  - fixed bug where the MEMORY.DMP file would not be deleted
+  - fixed an issue where scanning would fail due to the root directory not existing 
+- New advanced reset/troubleshoot network dialog that's replacing the flushing DNS one, with multiple options:
+   - DNS cache
+   - Windows socket catalog
+   - TCP/IP protocol: 
+   - HTTP proxy
+   - Firewall rules
+   - Network adapters
+   - IP adress
+- Startup apps:
+  - added startup items from the Startup folder execution delay option
+  - relocated the list of applications, will be displayed in a content dialog for a better scrolling experience
+  - added a default focus on the application name field when opening the dialog to add a new startup app
+- DMA improvements and fixes:
+  - fixed a bug where DMA status would be incorrectly displayed in certain scenarios like choosing an EEA region during Windows installation setup and then changing it to one outside EEA
+  - in EEA countries the DMA option will no longer be displayed since it's on by default
+  - added a tooltip detail regarding SFC reverting the effect of DMA
+  - added a [FAQ section](https://bogdan-patraucean.github.io/about/wintoys/faq.html#why-cant-i-uninstall-microsoft-edge-even-if-i-enabled-the-digital-markets-act-option) for LTSC  versions of Windows not supporting the uninstallation of Microsoft Edge
+- Performance benchmark:
+  - updated the performance score icon to be less confusing (the star suggested a 5 star rating system)
+  - removed GamingScore as it was hardcoded to 9.9 due to winsat no longer supporting it (the score might drop because of this)
+  - added the maximum score legend when hovering over the score (maximum is 9.9, not 10)
+- added _num lock on by default_ option under tweaks/system
+- added _co-installers_ option under health page
+- added _driver updates_ option under health page
+- the system model should now display a more reliable value on the home page
+- rewritten messages for File Explorer and Microsoft Store dialog options from the cleanup section
+- added the total used space of restore points and a backup warning to the system restore dialog from the cleanup section
+- when setting the Windows updating mode to manual, notifications will no longer annoy the user, being fully manual
+- added application window minimum height and width
+- default app size takes scaling into consideration
+- added a debounce to all input fields for better validation performance and a better user experience
+
+
+#### Bug fixes
+- gracefully handled access denied error
+- fixed _1 is not a supported codepage_ error when trying to run DISM
+- fixed crashes when resizing on some scalings
+- fixed an issue where multiple ultimate performance power plan entries were created when turning the option on/off in some cases
+- fixed an issue where app updates option would no longer work, after a recent Microsoft Store [update](https://www.neowin.net/news/microsoft-no-longer-allows-turning-off-app-updates-in-the-microsoft-store)
+- fixed Snipping Key option not reflecting the OS state
+- fixed Windowed mode optimization option not reflecting the OS state on a clean system install
+- fixed an issue where some options would be displayed as disabled when loaded on the landing page
+- fixed some issues where certain apps were missing from the apps page like Remote Desktop Connection (uninstallable starting from Windows 11 version 23H2), Paint (uninstallable starting from Windows 10 22H2 19045.3758), Snipping Tool (uninstallable starting from Windows 10 22H2 19045.3758), NVIDIA HD Audio Driver, etc.
+- fixed an issue where apps with major version 0 were not having the version displayed (for example PowerToys with version 0.94.0.0)
+- fixed an issue where apps where displayed using the Store display name instead of the system name (for example Files App will now be displayed as Files, Windows Calculator as Calculator)
+- fixed an unhandled exception when the store context might not be available on the device
+- fixed an issue where a removed profile option will break the compatibility scanning
+- fixed showing empty space for the memory frequency on some virtual machines
+- potential fix for not terminating Dropbox promotion app
+
+#### Technical
+  - upgraded to .NET 9
+  - upgraded to Windows App SDK 1.7
+  - updated libraries
+  - replaced custom titlebar theming with the new native API introduced in 1.7
+  - replaced getting UBR (Windows revision version) from registry with native API
+
+  <br>
+
+> ### **v2.0.91.0** • Jun 17, 2025
+
+
+- improved security of the feedback process
+- updated libraries
+- fixed an issue where Alt + Tab might make the app freeze
+- fixed an unhandled exception when the store context might not be available on the device
+- fixed an issue where a removed profile option would break the compatibility scanning
+- upgraded .sln to .slnx
+- updated translations
+
+  <br>
+  
 > ### **v2.0.91.0** • Jun 17, 2025
 
 
