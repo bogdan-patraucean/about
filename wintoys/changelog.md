@@ -1,5 +1,16 @@
 # Wintoys changelog
 
+
+> ### **2.4.12.8** • Oct 5, 2025 (in certification)
+
+* added app execution alias, now the app can be launched from the command line (the execution alias is also used to create the app shortcut on desktop)
+* fixed an issue where apps won't load due to old MSI installers adding unhandled value types in the registry
+* fixed an issue that would cause an exception when the device setup region is missing from the registry
+* fixed an issue where checking for a service active dependents when trying to stop it would fail due to localization resources not being found
+* fixed an issue where the UCPD option would not load because the ucpd service does not exist
+
+  <br>
+
 > ### **v2.4.6.0** (25H2 ready update) • Oct 4, 2025
 
  - bumped minimum supported application version from 19041.0 to 19044.1706 (this will make sure the OS contains the update that allows the application to run elevated, as 1706 servicing update is required and [MSIX does not yet cover this scenario](https://github.com/microsoft/WindowsAppSDK/issues/5730), (Windows 10 will still be supported despite the fact that official suport is ending this month)
