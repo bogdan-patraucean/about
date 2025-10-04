@@ -27,7 +27,7 @@
      - Logs (Windows logs)
      - Others (only apps or services that come packaged with Windows, like Remote Desktop, Widgets, or Nuget, for developers)
   - fixed a bug showing an incorrect number of files deleted in the toast notification
-  - fixed bug where the MEMORY.DMP file would not be deleted
+  - fixed a bug where the MEMORY.DMP file would not be deleted
   - fixed an issue where scanning would fail due to the root directory not existing 
 - New advanced reset/troubleshoot network dialog that's replacing the flushing DNS one, with multiple options:
    - DNS cache
