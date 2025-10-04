@@ -87,19 +87,6 @@
   - replaced getting UBR (Windows revision version) from registry with native API
 
   <br>
-
-> ### **v2.0.91.0** • Jun 17, 2025
-
-
-- improved security of the feedback process
-- updated libraries
-- fixed an issue where Alt + Tab might make the app freeze
-- fixed an unhandled exception when the store context might not be available on the device
-- fixed an issue where a removed profile option would break the compatibility scanning
-- upgraded .sln to .slnx
-- updated translations
-
-  <br>
   
 > ### **v2.0.91.0** • Jun 17, 2025
 
