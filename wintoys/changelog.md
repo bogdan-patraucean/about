@@ -1,6 +1,6 @@
 # Wintoys changelog
 
-> ### **v2.4.6.0** (25H2 ready update) • Oct 3, 2025
+> ### **v2.4.6.0** (25H2 ready update) • Oct 4, 2025
 
  - bumped minimum supported application version from 19041.0 to 19044.1706 (this will make sure the OS contains the update that allows the application to run elevated, as 1706 servicing update is required and [MSIX does not yet cover this scenario](https://github.com/microsoft/WindowsAppSDK/issues/5730), (Windows 10 will still be supported despite the fact that official suport is ending this month)
  - improved welcome screen _end presentation_ flow UX (the button will now be easier to spot)
