@@ -6,7 +6,7 @@
 * added app execution alias, now the app can be launched from the command line (the execution alias is also used to create the app shortcut on desktop), all you need to do is open the Terminal, or the old command prompt, type `wintoys` and press enter
 * fixed an issue where apps won't load due to old MSI installers adding unhandled value types in the registry
 * fixed an issue that would cause an exception when the device setup region is missing from the registry
-* fixed an issue where checking for a service active dependents when trying to stop it would fail due to localization resources not being found
+* fixed an issue where checking for a service's active dependents when trying to stop it would fail due to localization resources not being found
 * fixed an issue where the UCPD option would not load because the ucpd service does not exist
 
   <br>
