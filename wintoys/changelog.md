@@ -51,8 +51,8 @@
   - removed GamingScore as it was hardcoded to 9.9 due to winsat no longer supporting it (the score might drop because of this)
   - added the maximum score legend when hovering over the score (maximum is 9.9, not 10)
 - added _num lock on by default_ option under tweaks/system
-- added _co-installers_ option under health page
-- added _driver updates_ option under health page
+- added _co-installers_ option under health page (can help prevent software auto-installers like Razer Synapse, when you plug-in a new mouse, as an example)
+- added _driver updates_ option under health page (can help prevent Windows from overriding the GPU driver with an outdated version, as an example)
 - the system model should now display a more reliable value on the home page
 - rewritten messages for File Explorer and Microsoft Store dialog options from the cleanup section
 - added the total used space of restore points and a backup warning to the system restore dialog from the cleanup section
