@@ -7,7 +7,7 @@
     <img src="https://img.shields.io/badge/Microsoft%20Store-Download-blue" alt="Installer link" />
   </a>
   <a style="text-decoration:none;pointer-events:none;" target="_blank">
-    <img src="https://img.shields.io/badge/1.4M-blue" alt="Number of downloads" />
+    <img src="https://img.shields.io/badge/1.5M-blue" alt="Number of downloads" />
   </a>
 </p>
 
@@ -127,6 +127,7 @@ ___
 <p align="center" style="text-align: center;">
     <img width="30rem" src="../assets/ro.svg" alt="Romania flag" />&nbsp;<img width="30rem" src="../assets/eu.svg" alt="European Union flag" />
 </p>
+
 
 
 
