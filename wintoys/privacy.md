@@ -1,6 +1,6 @@
 # Wintoys privacy policy
 
-> ℹ️ Last update: `08.02.2025`
+> ℹ️ Last update: `22.09.2025`
 > 
 > The privacy policy describes how, what and why some data might be required to be collected. By using Wintoys, you acknowledge and consent to the practices described below.
 
@@ -21,7 +21,6 @@ This app requires internet connection only for the following features:
 - repair using DISM
 - system updates
 - error reporting
-- feedback
 
 You can use the app without an internet connection but the features above will not work properly.
 
@@ -33,3 +32,4 @@ The developer has no control over and assumes no responsibility for the content,
 ## Changes
 
 The Privacy Policy may suffer changes from time to time to reflect updates made to the app. When this Policy is changed in a material manner, you’ll be informed of such changes by updating the `Last update` label. It is your responsibility to review this Privacy Policy periodically to stay informed of any updates. Your continued use of the Services after any modifications to this Policy constitutes your acceptance of such changes.
+
