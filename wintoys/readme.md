@@ -110,6 +110,9 @@ ___
 „_Better uninstalling experience than the built-in one, sleek design, helpful and thoughtful tips, myriad options and tweaks, no agenda, efficient, responsive, all the good adjectives._”\
 \- **Reda**
 
+„_Helped me get rid of all the bloatware that Microsoft put onto my laptop. This is honestly the only good thing in the MS Store._”\
+\- **Alex**
+
 „_What the army of Microsoft developers should have made in the first place!_”\
 \- **Jacques**
 
@@ -127,6 +130,7 @@ ___
 <p align="center" style="text-align: center;">
     <img width="30rem" src="../assets/ro.svg" alt="Romania flag" />&nbsp;<img width="30rem" src="../assets/eu.svg" alt="European Union flag" />
 </p>
+
 
 
 
