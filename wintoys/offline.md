@@ -34,7 +34,7 @@ set "WINTOYS=11413PtruceanBogdan.Wintoys_2.4.12.0_x64__ankwhmsh70gj6.msix"
 
 
 :: ===================================================
-:: Installation of AppInstaller and it's dependencies
+:: Installation of AppInstaller and its dependencies
 :: ===================================================
 
 
@@ -55,7 +55,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -Command "Add-AppxPackage -Path '%
 
 
 :: ===================================================
-:: Installation of Wintoys and it's dependencies
+:: Installation of Wintoys and its dependencies
 :: ===================================================
 
 
@@ -76,7 +76,7 @@ pause
 - copy the contents of the script above and save it as a `.bat` file in that folder
 
 
-#### 2. Prepare AppInstaller and it's dependencies
+#### 2. Prepare AppInstaller and its dependencies
 
 - use this powershell command to check if it's installed:
 
@@ -106,7 +106,7 @@ pause
 - update `APPINSTALLER` variable from the script with the name of the AppInstaller file
 
 
-#### 3. Prepare Wintoys and it's dependencies
+#### 3. Prepare Wintoys and its dependencies
 
 ##### Wintoys dependencies
 
