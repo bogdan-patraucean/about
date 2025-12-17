@@ -9,7 +9,7 @@
   <a style="text-decoration:none;pointer-events:none;" target="_blank">
     <img src="https://img.shields.io/badge/1.6M-blue" alt="Number of downloads" />
   </a>
-  <a style="text-decoration:none" href="https://github.com/bogdan-patraucean/about/blob/main/wintoys/offline.md" target="_blank">
+  <a style="text-decoration:none" href="https://bogdan-patraucean.github.io/about/wintoys/offline" target="_blank">
     <img src="https://img.shields.io/badge/Offline%20guide-royalblue" alt="Offline installation guide" />
   </a>
 </p>
@@ -133,6 +133,7 @@ ___
 <p align="center" style="text-align: center;">
     <img width="30rem" src="../assets/ro.svg" alt="Romania flag" />&nbsp;<img width="30rem" src="../assets/eu.svg" alt="European Union flag" />
 </p>
+
 
 
 
