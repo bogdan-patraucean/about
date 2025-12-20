@@ -15,7 +15,7 @@ Using an [MSIX](https://learn.microsoft.com/en-us/windows/msix/overview) package
 
 ### Offline installation
 
-Make sure your system meets the minimum required version for the app to run: `Windows 10.0.19044.1706`, otherwise you won't be able to install.
+Make sure your system meets the minimum required version: `Windows 10.0.19044.1706`, otherwise you won't be able to install the app.
 
 #### 1. Prepare the script
 
