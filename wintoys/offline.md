@@ -15,6 +15,8 @@ Using an [MSIX](https://learn.microsoft.com/en-us/windows/msix/overview) package
 
 ### Offline installation
 
+Make sure your system meets the minimum required version for the app to run: `Windows 10.0.19044.1706`, otherwise you won't be able to install it.
+
 #### 1. Prepare the script
 
 `installer.bat`
@@ -84,7 +86,7 @@ pause
 (Get-AppxPackage Microsoft.DesktopAppInstaller).Version
 ```
 
-- if installed, remove the _Installation of AppInstaller and it's dependencies_ section from the script since it's not needed and skip to step 3, otherwise continue to install the AppInstaller
+- if installed, remove the _Installation of AppInstaller and it's dependencies_ section from the script since it's not needed and skip to step 3, otherwise continue to prepare the AppInstaller
 
 
 ##### AppInstaller dependencies
