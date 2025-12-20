@@ -1,6 +1,6 @@
 # Offline installation guide
 
-This guide is not for the average user, pay attention to the instructions!
+This guide **is not** for the average user, so pay attention to the instructions!
 
 ### MSIX
 
@@ -15,7 +15,7 @@ Using an [MSIX](https://learn.microsoft.com/en-us/windows/msix/overview) package
 
 ### Offline installation
 
-Make sure your system meets the minimum required version: `Windows 10.0.19044.1706`, otherwise you won't be able to install the app.
+Make sure your system meets the minimum required version: **`Windows 10.0.19044.1706`**, otherwise you won't be able to install the app.
 
 #### 1. Prepare the script
 
@@ -86,7 +86,7 @@ pause
 (Get-AppxPackage Microsoft.DesktopAppInstaller).Version
 ```
 
-- if installed, remove the _Installation of AppInstaller and it's dependencies_ section from the script since it's not needed and skip to step 3, otherwise continue to prepare the AppInstaller
+- if installed, remove (delete) the _Installation of AppInstaller and it's dependencies_ section from the script since it's not needed and skip to step 3, otherwise continue to prepare the AppInstaller
 
 
 ##### AppInstaller dependencies
