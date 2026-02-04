@@ -2,9 +2,11 @@
 
 ### Why is the code closed-source?
 
- - to ensure the most secure and smooth experience by offering availability only through Microsoft Store and winget
- - to avoid any copyright issues like fakes/copies, scams, or LLMs scrapping the code
- - to be able to offer a payed add-on with extra features for users who want to support my work
+There are a lot of reasons why open-source might not be the right option for every project. Making a project open-source comes with more responsibility, since you now not only have a project to develop, but a community to manage and more risks to mitigate. You can no longer afford your own pace since people can contribute at any point. Any contribution has the potential of being great or being dangerous, so it has to be reviewed. That's time I don't have. Making your code public means anybody can have a copy, including companies that train their AI models on other people's work, without permission. I refuse to let Microsoft, OpenAI, or any other company steal my work without permission for a profit. On the otherhand, even if no model would be trained on my code, there is still a malicious intent to impersonate me by scamming other people with a copy of my app, and I want to minimize that risk as much as possible. [Chrysalis](https://www.rapid7.com/blog/post/tr-chrysalis-backdoor-dive-into-lotus-blossoms-toolkit/), the backdoor that came with Notepad++ for months, is one of the examples of how things can go wrong if risks are not mitigated. I could continue with other reasons, but I think it's enough to understand why open-source is not the right approach for me.
+
+How do I ensure transparency then? By letting the product and users talk about this. I know it's hard to believe that a product like this is free and there is no catch, but I'm one of those users who understands the frustration of having ads everywhere, the frustration of having your data collected without consent, or the frustration of using products designed to make money, not to address a genuine need. I made a product that I wanted to use myself. It was designed to solve an existing problem, not to invent a new one.
+
+There are still good people in this world.
 
 ### How to change the language?
 
