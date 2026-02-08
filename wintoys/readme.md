@@ -7,7 +7,7 @@
     <img src="https://img.shields.io/badge/Microsoft%20Store-Download-blue" alt="Installer link" />
   </a>
   <a style="text-decoration:none;pointer-events:none;" target="_blank">
-    <img src="https://img.shields.io/badge/1.7M-blue" alt="Number of downloads" />
+    <img src="https://img.shields.io/badge/1.8M-blue" alt="Number of downloads" />
   </a>
   <a style="text-decoration:none" href="https://bogdan-patraucean.github.io/about/wintoys/offline" target="_blank">
     <img src="https://img.shields.io/badge/Offline%20guide-Read-blue" alt="Offline installation guide" />
@@ -136,6 +136,7 @@ ___
 <p align="center" style="text-align: center;">
     <img width="30rem" src="../assets/ro.svg" alt="Romania flag" />&nbsp;<img width="30rem" src="../assets/eu.svg" alt="European Union flag" />
 </p>
+
 
 
 
