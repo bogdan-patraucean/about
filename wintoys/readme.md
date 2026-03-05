@@ -54,7 +54,7 @@ ___
 
 <h4 align="center" style="text-align: center;" markdown="1">
   
-  [Linus Tech Tips](https://youtu.be/0EtgwIajVqs?si=4ePAr8rZ_9EzwrRT&t=347) • [Windows Central](https://www.windowscentral.com/software-apps/wintoys-streamlined-bloatware-removal-and-quick-system-tweaks) • [Neowin](https://www.neowin.net/news/wintoys-offers-a-safe-and-easy-way-to-debloat-optimize-tweak-and-repair-windows-11) • [XDA](https://www.xda-developers.com/reasons-everyone-should-use-free-tool-customize-windows) • [Beebom](https://beebom.com/wintoys-every-windows-power-user-should-use) • [Pureinfotech](https://pureinfotech.com/wintoys-optimize-speed-up-windows-11) • [How-To-Geek](https://www.howtogeek.com/i-use-this-free-tool-as-my-go-to-solution-for-most-of-my-windows-needs)
+  [Linus Tech Tips](https://youtu.be/0EtgwIajVqs?si=4ePAr8rZ_9EzwrRT&t=347) • [Windows Central](https://www.windowscentral.com/software-apps/wintoys-streamlined-bloatware-removal-and-quick-system-tweaks) • [Neowin](https://www.neowin.net/news/wintoys-offers-a-safe-and-easy-way-to-debloat-optimize-tweak-and-repair-windows-11) • [XDA](https://www.xda-developers.com/reasons-everyone-should-use-free-tool-customize-windows) • [Beebom](https://beebom.com/wintoys-every-windows-power-user-should-use) • [Pureinfotech](https://pureinfotech.com/wintoys-optimize-speed-up-windows-11) • [How-To-Geek](https://www.howtogeek.com/i-use-this-free-tool-as-my-go-to-solution-for-most-of-my-windows-needs) • [Make Use Of](https://www.makeuseof.com/manage-windows-settings-with-wintoys/)
   
 </h4>
 
@@ -136,6 +136,7 @@ ___
 <p align="center" style="text-align: center;">
     <img width="30rem" src="../assets/ro.svg" alt="Romania flag" />&nbsp;<img width="30rem" src="../assets/eu.svg" alt="European Union flag" />
 </p>
+
 
 
 
