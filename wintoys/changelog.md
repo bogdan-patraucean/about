@@ -1,5 +1,89 @@
 # Wintoys changelog
 
+> ### **2.6.69.0** (Quality of life improvements update) • July 25, 2026
+
+- added the option to enable or disable the recommended section under _Tweaks > Start menu_ for all Windows 11 editions
+- added the option to to enable or disable recent items tracking (opened documents, projects, etc) so that they can appear in File Explorer or Jump Lists under _Tweaks > Start menu_ for both Windows 10 and 11; Windows 11 25H2 combines this option with another one called _Show recommended files in Start, recent files in File Explorer, and items in Jump Lists_ to create friction for users who'd like to keep the recommended section clean while preserving the history of recent items, you either keep both on or both off at the same time; with the addition of this option you can now remove the section completely while keeping your recents
+- added _Device metadata_ option under _Health_, to prevent devices from installing apps without consent like the[ recent LG Monitor Installer App case](https://www.youtube.com/watch?v=Q9uefFYe6bM) documented by GamerNexus
+- added an option to include installed applications cache and a warning about its side effects when clearing the Microsoft Store cache accessible from _Health > Cleanup_; previously the installed apps were included by default with no warning
+- the welcome experience now supports keyboard navigation
+- #### rewritten the _Services_ page to improve performance:
+    - the rewrite reduces the memory usage of the services page with ~**30%**, while also preparing for a long-term effort of making the app **AOT compatible** (replaced the WMI notification mechanism that was used to listen for service changes with a native API and will continue to replace bits and pieces where WMI is used, hopefully removing it completly since the library will not be AOT compatible any time soon, maybe never)
+    - a few notable changes that were done alongside the rewrite:
+        - the monitor mechanism used for when services change now supports the scenario when a new service is added or removed while responding to changes almost instantly - this means you see changes that the OS or other apps are doing to the services in real time, automatically (a feature that the services.msc or Task Manager is missing)
+        - rewritten the service card control from scratch to make the page feel snappier and use less memory (~30% less memory)
+        - removed the 3-dot menu from the right section of the service card since the context menu can be right clicked anywhere
+        - replaced the info icon with a question mark icon for a service description to nudge the user into reading it before making any changes
+        - the options to change the start mode of a service (auto, manual, disabled) are now part of the main context menu, no longer part of a submenu, so it's simpler to click them and save a bit of time (icons were also added for these three menu items)
+        - renamed the `Useless` filter option to `Optional` to reduce the risk of disabling services that might be needed
+        - fix for an issue where certain context menu items (start, stop, etc.) would not update their enabled/disabled state correctly after a service change
+        - fix for an issue where the service restart context menu option won't restart the services in some cases
+
+- #### rewritten the _Apps_ page to improve performance:
+    - the rewrite reduces the memory usage of the applications page with ~**20%**
+    - a few notable changes that were done alongside the rewrite:
+        - rewritten the app card control from scratch to make the page feel snappier and use less memory (~20% less memory)
+        - instead of checking system apps by instalation path, the signature will now be used to filter them
+        - packages that have multiple entries (like bundles) can no longer be opened or closed; previously, the first entry was always used
+        - removed the 3-dot menu from the right section of the app card since the context menu can be right clicked anywhere
+        - apps that don't have a display name will now be included in the list with `Missing name` as the display value
+        - fix for an issue where certain app uninstalls won't trigger a change in the list of apps after being uninstalled
+       
+- #### rewritten the _Startup entries_ page to improve performance:
+    - the rewrite reduces the memory usage of the startup entries page with ~**10%**
+    - a few notable changes that were done alongside the rewrite:
+        - rewritten the startup entry card control from scratch to make the page feel snappier and use less memory (~10% less memory)
+        - fix for an issue where certain packages with multiple entries registered to run at startup would be displayed only as the first entry with the name of the main package ([Microsoft 365 companions apps](https://learn.microsoft.com/en-us/microsoft-365-apps/companions/overview) is a good example of this case) - you will now see Calendar, Files and People entries instead of one entry called Microsoft 365 companions apps
+        - fix for an issue where certain startup apps would get a corrupted state if misconfigured after installation
+        - improved the state detection mechanism for entries: even if an app has a startup entry configured as enabled, it will not be displayed as enabled if the app was never launched, aligning with the Task Manager behaviour
+        - the on hover buttons for copy and delete a registry key are now available as options on the context menu  so it consistently alings with the other lists in the application (installed apps, services, etc.)
+        - the option to copy the registry key of an entry is now also available for modern apps, not just the classic ones
+        - when sorting entries by their status they will also be sorted by name so they remain ordered (ascending or descending)
+- added the acrylic backdrop for Windows 10 and 11 (on Windows 10, acrylic will be applied by default and the only option available)
+- _Activity history_ option is no longer displayed on Windows versions that don't support the feature
+- added a warning for when `IntegratedServicesRegionPolicySet.json` file is corrupt on some devices due to manual changes or debloater changes
+- included _Microsoft Compatibility Appraiser Exp_ scheduled task when disabling telemetry
+
+### Bug fixes
+
+- fix for an issue where newly added system settings via updates won't be restored to their initial values accordingly
+- fix for an issue where modifiying a setting in Windows that would require a restart, then restarting without opening the application, would display the _Action required_ button when opening the app after the restart, even though the setting was already in effect because of the restart
+- fix for an issue where scrolling when the setting "Scroll inactive windows when hovering over them" is off won't work
+- fix for an issue where the titlebar caption buttons background and hover colors won't be consistent with the system ones (both on light and dark themes)
+- fix for an issue where storage devices won't load because some of them might be locked with BitLocker
+- fix for an issue where network stats won't load on devices with VMs and/or third-party VPNs installed
+- fix for an issue where most system tools like `bcdedit`, `wsreset`, `powercfg` etc. would fail to launch because of the `SYSTEM` PATH environment variable being corrupted or missing (`%SystemRoot%\system32`) on some systems
+- fix for logging failures when the EventLog service is not running in Windows - when the service is not available, the Event Viewer logging configuration will no longer be set
+- fix for an issue where a temp file would not cleaned after changing the _Digital Markets Act_ option
+- fix for an issue where opening the app would not bring the window in the foreground in some scenarios
+- potential fix for an issue where startup apps won't load because of broken registry paths
+- potential fix for an issue where using the _Browse_ context menu option from apps, startup apps or services would fail to launch File Explorer because File Explorer is not the default file manager. The fix should use the default file manager now, even if it's a third party one
+- replaced `rstrui.exe` with `systempropertiesprotection.exe` to actually open the _Create a restore point_ window on the welcome experience screen
+- fix for an issue where the redirect button for the _Search indexing_ would not open the correct settings page on Windows 10
+- fix for an issue where the God mode option would fail to turn off because the folder was manually deleted
+- fix for an issue where the ultimate performance power plan option would fail to load its state on some systems
+- gracefully handled a few exceptions:
+    - handled an exception when loading services that are no longer found
+    - handled the case when the app runs out of system memory or out of disk space, by showing a descriptive warning
+    - handled cases where certain operations on services might fail due to internal API exceptions
+    - handled a case where loading modern apps (including startup ones) or subscribing to catalog changes for modern apps would fail if **AppX Deployment Service (AppXSVC)** is missing, fails to start or is stopping. It will now only load and subscribe for classic apps. A UI warning will be added at a later point to indicate the dependency on this service. For now the warning will be found in logs (EventViewer)
+    - handled cases where the **StoreContext** might be unavailable because its services or the Store itself is not installed on the device (like using an LTSC or debloated version of Windows for example)
+    - handled some cases where operations on files could not be done because they were in use by other processes (loading startup apps, deleting a startup app, toggling the app shortcut option etc.)
+    - handled an exception where the memory diagnostic could not be loaded because the **Event Viewer** logs are corrupted or not enough permissions were set to access them. Hovering over the heart icon will show the text _inaccessible logs_ in this scenario
+    - handled an access denied exception preventing changes to certain registry keys because of antivirus protection; a descriptive warning will now be displayed
+    - handled an exception when loading certain scheduled tasks
+
+### Technical
+
+- added offline guide and installer accessible [here](https://bogdan-patraucean.github.io/about/wintoys/offline)
+- upgraded to Windows App SDK 2.3.1
+- upgraded to .NET 10
+- logging is now faster and details were enriched to further troubleshoot errors and exceptions
+- replaced native file and folder pickers with modern APIs
+- reduced CPU usage spikes while loading OS stats on the home page
+- added logging for when the restore operation fails for a setting (EventViewer can be checked for details)
+
+  <br>
 
 > ### **2.4.12.0** • Oct 5, 2025
 
