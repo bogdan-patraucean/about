@@ -75,7 +75,7 @@
 
 ### Technical
 
-- added [a guide](https://bogdan-patraucean.github.io/about/wintoys/offline) for offline unattended installation using a script that works without having the Store component installed or an account (it's for technical users)
+- added [a guide](https://bogdan-patraucean.github.io/about/wintoys/offline) for offline unattended installation - a script that doesn't require the Microsoft Store component or services to be installed (it's for technical users)
 - upgraded to Windows App SDK 2.3.1
 - upgraded to .NET 10
 - logging is now faster and details were enriched to further troubleshoot errors and exceptions
