@@ -75,7 +75,7 @@
 
 ### Technical
 
-- added offline guide and installer accessible [here](https://bogdan-patraucean.github.io/about/wintoys/offline)
+- added a guide for offline unattended installation that works without having the Microsoft Store installed [here](https://bogdan-patraucean.github.io/about/wintoys/offline)
 - upgraded to Windows App SDK 2.3.1
 - upgraded to .NET 10
 - logging is now faster and details were enriched to further troubleshoot errors and exceptions
