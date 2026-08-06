@@ -8,7 +8,7 @@ Using an [MSIX](https://learn.microsoft.com/en-us/windows/msix/overview) package
 - a uniform and consistent experience for all applications (classic ones and modern ones)
 - automatic cleanup when uninstalling (no residual files left after uninstallation)
 - automatic updates (including differential updates)
-- certification and security
+- [best security](https://devblogs.microsoft.com/insidemsix/msix-chain-of-trust/) and certification
 - transparency regarding required capabilities like accessing the registry or the internet
 - unattended installation (a thing showcased in the guide below)
 
