@@ -1,5 +1,13 @@
 # Wintoys changelog
 
+> ### **2.6.71.0** • Aug 22, 2026
+
+- availability to download the MSIX application package via `winget download` command; no need for [store.rg-adguard.net]( https://store.rg-adguard.net) anymore
+- fix for a crash due to Windows Event Log service access being restricted - a descriptive error message will now appear instead
+- fix for an issue where loading apps, services or startup entries would remain in an infinite loading loop if any error occurred during the load operation
+
+<br>
+  
 > ### **2.6.69.0** (Quality of life improvements update) • July 25, 2026
 
 - added the option to enable or disable the recommended section under _Tweaks > Start menu_ for all Windows 11 editions
@@ -83,7 +91,7 @@
 - reduced CPU usage spikes while loading OS stats on the home page
 - added logging for when the restore operation fails for a setting (EventViewer can be checked for details)
 
-  <br>
+<br>
 
 > ### **2.4.12.0** • Oct 5, 2025
 
@@ -93,7 +101,7 @@
 * fixed an issue where checking for a service's active dependents when trying to stop it would fail due to localization resources not being found
 * fixed an issue where the UCPD option would not load because the ucpd service does not exist
 
-  <br>
+<br>
 
 > ### **v2.4.6.0** (25H2 ready update) • Oct 4, 2025
 
@@ -170,7 +178,7 @@
   - replaced custom titlebar theming with the new native API introduced in 1.7
   - replaced getting UBR (Windows revision version) from registry with native API
 
-  <br>
+<br>
   
 > ### **v2.0.91.0** • Jun 17, 2025
 
@@ -183,7 +191,7 @@
 - upgraded .sln to .slnx
 - updated translations
 
-  <br>
+<br>
   
 > ### **v2.0.81.0** (major update) • Mar 31, 2025
 
