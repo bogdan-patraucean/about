@@ -2,7 +2,7 @@
 
 > ### **2.6.71.0** • Aug 22, 2026
 
-- availability to download the MSIX application package via `winget download` command; no need for [store.rg-adguard.net]( https://store.rg-adguard.net) anymore
+- availability to download the MSIX application package via `winget download` command; no need for [store.rg-adguard.net]( https://store.rg-adguard.net) anymore (requires an organization account)
 - fix for a crash due to Windows Event Log service access being restricted - a descriptive error message will now appear instead
 - fix for an issue where loading apps, services or startup entries would remain in an infinite loading loop if any error occurred during the load operation
 
