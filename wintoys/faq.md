@@ -2,7 +2,7 @@
 
 ### Why is the code closed-source?
 
-There are a lot of reasons why open-source might not be the right option for every project. Making a project open-source comes with more responsibility, since you now not only have a project to develop, but a community to manage and more risks to mitigate. You can no longer afford your own pace since people can contribute at any point. Any contribution has the potential of being great or being dangerous, so it has to be reviewed. That's time I don't have. Making your code public means anybody can have a copy, including companies that train their AI models on other people's work, without permission. I refuse to let Microsoft, OpenAI, or any other company steal my work without permission for a profit. On the otherhand, even if no model would be trained on my code, there is still a malicious intent to impersonate me by scamming other people with a copy of my app, and I want to minimize that risk as much as possible. [Chrysalis](https://www.rapid7.com/blog/post/tr-chrysalis-backdoor-dive-into-lotus-blossoms-toolkit/), the backdoor that came with Notepad++ for months, is one of the examples of how things can go wrong if risks are not mitigated. I could continue with other reasons, but I think it's enough to understand why open-source is not the right approach for me.
+There are a lot of reasons why open-source might not be the right option for every project. Making a project open-source comes with more responsibility, since you now not only have a project to develop, but a community to manage and more risks to mitigate. You can no longer afford your own pace since people can contribute at any point. Any contribution has the potential of being great or being dangerous, so it has to be reviewed. That's time I don't have. Making your code public means anybody can have a copy, including companies that train their AI models on other people's work, without permission. I refuse to let Microsoft, OpenAI, or any other company steal my work without permission for a profit. On the otherhand, even if no model would be trained on my code, there is still a malicious intent to impersonate me by scamming other people with a copy of my app, and I want to minimize that risk as much as possible. An unknown attacker [is already trying to impersonate me and other 70 popular Windows apps](https://www.reddit.com/r/Windows11/comments/1v771ka/i_discovered_a_large_scale_operation/), and occasionally on Github I see repos with links that contain malware pretending to offer a pro version of the app that doesn't even exist. I could continue with other reasons, but I think it's enough to understand why open-source is not the right approach for me.
 
 How do I ensure transparency then? By letting the product and users talk about this. I know it's hard to believe that a product like this is free and there is no catch, but I'm one of those users who understands the frustration of having ads everywhere, the frustration of having your data collected without consent, or the frustration of using products designed to make money, not to address a genuine need. I made a product that I wanted to use myself. It was designed to solve an existing problem, not to invent a new one.
 
@@ -12,6 +12,8 @@ There are still good people in this world.
 
 The first language is automatically selected from the list of installed language packs found in Windows settings:_Time & language > Language & region > Language_.
 The list can be reordered using drag and drop and if your language is not supported, English is the fallback one.
+
+Official guide can be found [here](https://support.microsoft.com/en-us/windows/hardware/input-devices/manage-the-language-and-keyboard-input-layout-settings-in-windows#:~:text=Windows%20display%20language.-,Change%20the%20language%20used%20by%20Microsoft%20Store%20apps%20and%20websites,-Changing%20the%20Windows).
 
 ### How to uninstall?
 
@@ -54,7 +56,7 @@ This means you have a [volume](https://learn.microsoft.com/en-us/licensing/produ
 
 ### How do I get rid of _"Some settings are managed by your organization"_ message from the settings app?
 
-This message appears when certain Windows settings configured in [Group Policies](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831791(v=ws.11)) are changed (either by your organization or by third party apps). You can find a tutorial to get rid of it [here](https://answers.microsoft.com/en-us/windows/forum/windows_10-other_settings/some-of-these-settings-are-hidden-or-managed-by/0f43eb7c-b01b-4615-8cf7-db047ac044aa), but settings affected by this message will reset to their default.
+This message appears when certain Windows settings configured via [Group Policies](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831791(v=ws.11)) are changed (either by your organization or by third party apps). You can find a tutorial to get rid of it [here](https://answers.microsoft.com/en-us/windows/forum/windows_10-other_settings/some-of-these-settings-are-hidden-or-managed-by/0f43eb7c-b01b-4615-8cf7-db047ac044aa), but settings affected by this message will reset to their defaults.
 
 ### Why can't I uninstall Microsoft Edge even if I enabled the Digital Markets Act option?
 
