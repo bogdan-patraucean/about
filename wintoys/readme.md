@@ -77,8 +77,8 @@ ___
 „_So essential it should come pre-installed on Windows!_”\
 \- **Alexandre**
 
-„_This app really made me see all the potential my PC can do, special thanks to the developer!_”\
-\- **Ruiz**
+„_This has to be one of if not the BEST windows tweaking applications that I've ever used._”\
+\- **David**
 
 „_I usually only review a product if it's great or terrible. This one is great, and not because Linus said so, but because it is actually useful for me._”\
 \- **Aaron**
