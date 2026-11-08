@@ -43,6 +43,8 @@ While Wintoys+ works seamlessly on Windows 10, Microsoft unfortunately only patc
 
 I know the situation is annoying, but I did my best to make the fix possible.
 
+You won't see dark UI patterns or annoying popups, nor the application will become worse or get ads to force you buy "a better version" like most products do after the honey moon phase - there is no better version, just the same application you already know, **+** an extension.
+
 ### Configuration mode
 
 With the addition of this mode, I'm proud to announce that Wintoys is now the first Windows utility to properly sync policies with the Group Policy Editor. This new capability offers consistency between what the Group Policy Editor displays and which system settings are actually applied, meaning settings configured by the application will no longer be overriden by the Group Policy engine once every 90 minutes when Windows does its own sync or with every forced sync an organization might trigger. 

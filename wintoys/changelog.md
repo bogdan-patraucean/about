@@ -1,5 +1,136 @@
 # Wintoys changelog
 
+> ### **3.0.8.0** (major update++) • Nov 8, 2026 (in certification)
+
+Since this is a special update, I wrote [a blog post](blogs/wintoys-3.0.md) about it's story, with more insights, screenshots and GIFs to illustrate the most important changes. I highly recommend you read that first, I promise it's worth it! 🎉
+
+- finally, added the most-requested feature, **profiles**:
+    - the feature is part of Wintoys+, an in-app extension you can acquire for lifetime, to support my work and effort; the add-on allows you the convenience of applying profiles of settings with a single click, automatically; you won't see dark UI patterns or annoying popups, nor the application will become worse or get ads to force you buy "a better version" like most products do after the honey moon phase - there is no better version, just the same application you already know, **+** an extension
+    - you can use profiles to save your current configuration for a new Windows installation, or for sharing it with your friends or community
+    - profiles are exported as JSON files and work seamless between different versions and builds of the OS
+    - the import has a compatibility scanner that will tell you if a profile is corrupt, identical with your current configuration or compatible
+    - the import / export options are available on the _Settings_ page
+    - for more details, click the 🍕 button from the application's navigation bar
+- added _**Configuration mode**_ option under the _Settings_ page; this setting will let you configure the mode a system setting is applied, either as a preference (regular registry settings) or as a policy, if both are supported, while also giving the option to choose if existing policies should be reset or reused depending on the configuration mode of choice:
+    - with the addition of this mode, I'm proud to announce that Wintoys is now the first popular Windows utility to properly sync policies with the Group Policy Editor; this new capability offers consistency between what Group Policy Editor displays and what system settings are actually applied, meaning settings configured by the application will no longer be overriden by the Group Policy engine once every 90 minutes or with every forced sync an organization might trigger
+    - all settings that can be configured both as a preference or as a policy were revised to support this new behavior
+    - the already configured settings won't be synced: **a reapply is required**
+- added _**AI components**_ option on the _Optimizations_ page (this service can use a considerable amount of RAM to facilitate AI features in the system or other apps by loading machine learning models into memory - 2 GBs to 8GBs+ according to multiple reports); available on Copilot Plus PCs (with CPUs that have an NPU component)
+- added _**Window preloading**_ _(File Explorer preloading)_ option under the _Optimizations_ page (available on systems with Windows 11 starting from build 26100.8328 or 26200.8328)
+- added _**Artificial intelligence**_ section to manage settings related to AI features available in Windows (if you don't see these settings, it means you don't have those specific AI features on your system):
+    - added _**Recall**_ option (an additional download button will appear as well if the Recall component is not part of the system)
+    - added _**Click to Do**_ option
+    - added _**Writing tools in Notepad**_ option
+    - added _**Agentic search experience**_ option
+- added _**Device search history**_ option under _Tweaks > Privacy_ (available on both Windows 10 and 11)
+- added _**Notifications on the lock screen**_ option under _Tweaks > Privacy_ (available on both Windows 10 and 11)
+- added _**Online tips in the settings app**_ option under _Tweaks > Ads_ (available on both Windows 10 and 11)
+- added _**Communication with unpaired devices**_ option under _Tweaks > Privacy_ (available on both Windows 10 and 11)
+- added _**Learn more about this picture**_ option under _Tweaks > Desktop_ (available on both Windows 10 and 11)
+- added _**WPBT (Windows platform binary table)**_ option on the _Health_ page (available only for devices that have the WPBT table, configured by the OEM)
+- added page navigation cache; the application remembers things like what sections were expanded or where the scrollbar was when you last visited that page at runtime
+- after applying a setting that results in a failure, the setting will now be automatically reverted to the previous value so the UI displays the correct state (applies to all options available)
+- the restore settings dialog has been revamped to display the list of settings that were modified since the app was first launched, including a gray status dot that will display on hover the restoration point date when the setting initial value was saved; since no previous application version has the restoration point date, a reset of the application is required for the new dates to be populated
+- the pending settings dialog has been revamped to display the list of settings that might require a restart, including a notification badge that shows the number of pending settings in the navigation bar
+- the applications and services pages now support CTRL + F shortcut to focus on the search box
+- system and hidden files are now included when calculating the size of applications
+- replaced the option to disable system updates with the option to pause them for **20** years because Windows was reverting the change after some time; the option to pause has the same effect, but Windows should no longer revert it randomly
+- _**Home**_ page changes:
+    - replaced the **_Space cleaned_** card with a **_Drive (C:)_** card showing disk activity and size
+    - renamed the _System_ card to _Platform_ so it better represents the information from the tooltip
+    - changed the _System_ card icon to a PC case instead of a PC case with monitor
+    - added TPM version information on the _Platform_ card
+    - added Secure Boot information on the _Platform_ card
+    - added Family (device family) information on the _Platform_ card
+    - added memory usage size for the _Memory_ card alonsgide the percentage
+    - hovering over the Windows version will now display 26H1 or 26H2 depending on the build number
+- the _Performance_ page has been renamed to _Optimizations_ to better reflect what the page represents
+- the _Applications_ page has been renamed to _Uninstaller_ to better reflect what the page represents, alongside with an icon change
+- added support for the _Ukrainean_ language and updated all translations
+- improvements to the storage cleaner tool:
+  - added complete information about the C: drive at the top (used space, total space, progress bar) 
+  - tweaked the UI for the selection information to be consistent with the rest of the application
+  - the button to scan for files is now using a subtle style
+  - scanned files now include both system files and hidden files
+  - the button to delete files is disabled until a selection is made
+- with the revision of all settings available in the application a few inconsistencies caused by new Windows updates or recent changes in the official Microsoft documentation have been addressed:
+    - fix for the _System updates_ option, a deprecated key was removed and a new one to allow proper GPEDIT sync was added
+    - fix for the _Search indexing_ option state not being properly displayed if the underlying policy was configured as disabled
+    - fix for the _Settings app: home page_ option state not being properly displayed if the underlying policy was configured to hide multiple pages
+    - fix for the _Settings app: home page_ option, now plays friendly if other pages are set to be hidden, instead of overriding the entire key
+    - fix for the _Tailored experiences_ option (now Personalized offers in 25H2) not applying because of a new update that changed the underlying registry key
+    - fix for the _Application telemetry_ option state not being properly displayed if the underlying policy was not configured
+    - fix for the _Location_ option using the per-app access location policy instead of the global one
+    - for the _Telemetry_ option, a deprecated key was removed
+    - the _Recent items tracking_ option now requires an `explorer.exe` restart
+    - the _Widgets_ option now requires a system reboot due to the inconsistencies when applying the setting
+    - the _Fun facts_ option no longer turns on/off Windows Spotlight when set
+- revised the list of optional services:
+    - third party services are no longer considered optional (they can be filtered as a separate category)
+    - 10 new services were added as optional with their corresponding explanations regarding of when they are safe to be disabled
+    - 2 optional services are no longer marked as optional (Windows Connect Now - Config Registrar and Sensor Service) due to the bugs they can cause or impredictable impact / side effects
+- added a few warnings for various scenarios:
+    - for when UCPD blocks changing the _Widgets_ option
+    - for when trying to toggle options that rely on scheduled tasks but Task Scheduler is not running (options like UCPD, telemetry, storage optimization)
+    - for when there is an error while saving application data
+    - for when StorePurchase app is missing from the system
+    - to inform that VBS can't be completely disabled without turning off Windows Hello
+    - for the Windows bug preventing purchases on Windows 10; users need to know the add-on has to be bought on Windows 11 before use
+- the navigation pane now has the same consistent size as in other WinUI 3 apps
+- rephrased the feedback dialog instructions and added a link to the [FAQ section](https://bogdan-patraucean.github.io/about/wintoys/faq.html)
+- the restore action will display a success toast instead of a warning toast if all settings were successfully restored
+- hidden the option to enable the classic context menu from Windows build `26340.9577` forward as Microsoft made some changes to the new context menu that caused the option to no longer work
+- removed a limit that prevented GPU usage from being calculated on VMs due to a Windows bug
+- changed the icons for Camera on/off indicator option and Camera on the lock screen option to a web cam
+- changed the UI separator/devider color
+
+### Bug fixes
+
+- fix for an issue where the _Restore_ button would be enabled because it would check options that are not available on that system
+- potential fix for an issue that would prevent launching other utilities like `bcdedit` or `powercfg`
+- fix for an issue where services that can't be changed due to lack of permissions would not have the context menu options disabled to indicate that (ie: Task Scheduler)
+- fix for an issue where [per-user services](https://learn.microsoft.com/en-us/windows/application-management/per-user-services-in-windows) would not have the context menu options disabled accordingly (ie: Agent Activation Runtime)
+- handled errors when changing options that rely on services (like Search indexing or Telemetry); suggestive toasts will now be displayed in case something fails and the options will be reverted to their previous state
+- fix for an issue where the secondary startup entry registry key would be copied in the clipboard instead of the primary one
+- fix for an issue where trying to browse apps, startup entries or services would cause errors in certain scenarios:
+    - wrong path syntax (Linux paths syntax)
+    - unauthorized access for kernel level files (anti-cheat services, antiviruses, etc.)
+- fix for an issue where certain app installs would fail to reload the application list (ie: installing FilePilot)
+- fix for an issue where _God mode_ could not be disabled after being synced by OneDrive
+- fix for trimming text changing carret position in some input fields
+- fix for an issue where calculating the size of an application while the system is making changes to its files would fail; the inaccessible files will now be ignored; a real case scenario would be when the apps are loaded while the system is updating them in the background
+- fix for an issue where due to a race condition, the same toast could be displayed twice
+- fix for an issue where application size could not be calculated because of registry string residual values left by installers
+- handled exception when trying to load the shortcut target for a corrupt startup entry from the Startup folder
+- handled exception while trying to load the package signature for modern apps due to system data corruption
+- handled exception while trying to load apps when the disk is almost full
+- handled exception while trying to load apps when the app repository is corrupt or inaccessible
+- handled exception while checking the internet status on devices with the Network Location Awarness service disabled on Windows 10 or devices with the Network List Service service disabled on Windows 11
+- handled exception when trying to get app licensing information while the app runs in Safe Mode
+- handle exception while trying to reset modern apps before they were first open at least once
+- handled exception while trying to open apps (unknown cause)
+- handled exception when an app would fail to reset because there is nothing to reset
+- handled multiple IO exceptions while calculation application size
+- handled exception when .mui system localization files are missing
+- handled exception where `COMCTL32.dll` is not found on the device
+- handled timeout exception while loading applications or startup entries
+- handled exception while loading initial DMA status when the json file is corrupt
+- handled an exception when reading the video card usage values
+
+### Technical
+
+- rewritten all user controls to templated controls for improved performance (home page cards, the settings card, etc)
+- upgraded to Windows App SDK 2.6.5
+- replaced UWP ApplicationDataContainer and ResourceLoader with WASDK ones
+- added icons for each environment (prod with gray ones, dev with purple ones)
+- added OS arhitecture as details for ApplicationInsights to further troubleshoot errors
+- improved logging based on severity and providers
+- added logging when importing an option fails
+- added logging on add-on purchase failure
+
+<br>
+
+
 > ### **2.6.71.0** • Aug 22, 2026
 
 - availability to download the MSIX application package via `winget download` command; (requires an organization account)
