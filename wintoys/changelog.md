@@ -1,6 +1,6 @@
 # Wintoys changelog
 
-> ### **3.0.8.0** (major update++) • Nov 8, 2026
+> ### **3.0.10.0** (major update++) • Nov 8, 2026
 
 Since this is a special update, I wrote [a blog post](blogs/wintoys-3.0.md) about it's story, with more insights, screenshots and GIFs to illustrate the most important changes. I highly recommend you read that first, I promise it's worth it! 🎉
 
