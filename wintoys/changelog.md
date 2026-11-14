@@ -1,5 +1,16 @@
 # Wintoys changelog
 
+> ### **3.0.15.0** • Nov 14, 2026 (in certification)
+
+- potential fix for an issue where a policy setting would not be immediately applied
+- fix for an issue where dates on the home page (video card driver date, Windows installation date, etc.) could not be correctly displayed for the Hijri calendar
+- potential fix for an issue where the _Shortcut arrow_ option would not apply because of an encryption failure
+- handled an exception where trying to disable some services would not show the app's localized warning when access is denied
+- handled an exception where uninstalling an application might fail because the uninstaller is corrupt
+- handled an exception when navigating two fast between pages
+
+<br>
+
 > ### **3.0.10.0** (major update++) • Nov 8, 2026
 
 Since this is a special update, I wrote [a blog post](blogs/wintoys-3.0.md) about it's story, with more insights, screenshots and GIFs to illustrate the most important changes. I highly recommend you read that first, I promise it's worth it! 🎉
