@@ -2,7 +2,7 @@
 
 > ### **3.0.22.0** • Nov 17, 2026 (in certification)
 
-- fix for an issue where a policy sync would not work the first ~10 minutes after boot on some systems; the settings are now directly saved in the GPO database and the registry, leaving the sync asyncronous for when the system is prepared to run execute it
+- fix for an issue where a policy sync would not work the first ~10 minutes after boot on some systems; the settings are now directly saved in the GPO database and the registry, leaving the sync asyncronous for when the system is prepared to execute it
 - added compatibility for the _Classic context menu_ option with [the new Windows context menu](https://blogs.windows.com/windows-insider/2026/08/17/improving-file-explorer-context-menu-faster-simpler-and-more-customizable/)
 
 <br>
