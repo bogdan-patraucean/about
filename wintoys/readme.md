@@ -41,6 +41,8 @@ ___
 - find out which services you don't need and safely disable them with only two clicks
   
 - see specs about your device and statistics in real time
+  
+- use profiles to configure the operating system in a few seconds with a single click
 
 <br>
 
