@@ -1,6 +1,6 @@
 # Wintoys changelog
 
-> ### **3.0.15.0** • Nov 14, 2026 (in certification)
+> ### **3.0.15.0** • Nov 16, 2026
 
 - potential fix for an issue where a policy setting would not be immediately applied
 - fix for an issue where dates on the home page (video card driver date, Windows installation date, etc.) could not be correctly displayed for the Hijri calendar
