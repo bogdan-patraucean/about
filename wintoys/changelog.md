@@ -64,7 +64,7 @@ Since this is a special update, I wrote [a blog post](blogs/wintoys-3.0.md) abou
     - hovering over the Windows version will now display 26H1 or 26H2 depending on the build number
 - the _Performance_ page has been renamed to _Optimizations_ to better reflect what the page represents
 - the _Applications_ page has been renamed to _Uninstaller_ to better reflect what the page represents, alongside with an icon change
-- added support for the _Ukrainean_ language and updated all translations
+- added support for the _Ukrainean_ language and updated all translations (thanks to @RikuZume)
 - improvements to the storage cleaner tool:
   - added complete information about the C: drive at the top (used space, total space, progress bar) 
   - tweaked the UI for the selection information to be consistent with the rest of the application
